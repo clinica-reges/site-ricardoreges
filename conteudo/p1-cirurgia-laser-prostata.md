@@ -17,7 +17,7 @@ Cirurgia a laser da próstata desde 2012 · Mais de cem procedimentos realizados
 
 Levantar três, quatro vezes por noite para urinar. Jato fraco, que demora a começar. A sensação de que a bexiga nunca esvazia por completo. A vida organizada em volta do banheiro mais próximo.
 
-Se você reconheceu esses sinais, saiba que eles têm nome — hiperplasia prostática benigna (HPB), o crescimento não canceroso da próstata — e que atingem mais da metade dos homens acima dos 60 anos. Na maioria dos casos, o tratamento começa com medicamentos. Mas quando o remédio deixa de bastar, ou quando os efeitos colaterais pesam mais que o benefício, a cirurgia moderna da próstata é muito diferente da que o seu pai talvez tenha feito.
+Se você reconheceu esses sinais, saiba que eles têm nome — hiperplasia prostática benigna (HPB), o aumento benigno da próstata — e que atingem mais da metade dos homens acima dos 60 anos. Na maioria dos casos, o tratamento começa com medicamentos. Mas quando o remédio deixa de bastar, ou quando os efeitos colaterais pesam mais que o benefício, a cirurgia moderna da próstata é muito diferente da que o seu pai talvez tenha feito.
 
 Hoje, as técnicas a laser e minimamente invasivas permitem tratar a obstrução com menos sangramento, menos tempo de sonda e recuperação mais rápida — inclusive em próstatas muito volumosas e em pacientes que usam anticoagulantes.
 

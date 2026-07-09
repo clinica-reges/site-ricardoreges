@@ -63,8 +63,8 @@ export const SHOW_VIDEO_SLOTS =
 // Navegação principal (ordem no menu)
 export const NAV = [
   { href: '/', label: 'Início' },
-  { href: '/cirurgia-laser-prostata/', label: 'Cirurgia a laser' },
-  { href: '/cirurgia-robotica/', label: 'Cirurgia robótica' },
+  { href: '/cirurgia-laser-prostata/', label: 'Cirurgia a Laser' },
+  { href: '/cirurgia-robotica/', label: 'Cirurgia Robótica' },
   { href: '/echolaser/', label: 'EchoLASER' },
   { href: '/pos-prostatectomia/', label: 'Pós-prostatectomia' },
   { href: '/avaliacao-urodinamica/', label: 'Avaliação' },

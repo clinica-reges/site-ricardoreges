@@ -107,7 +107,7 @@ export default function LaserProstataPage() {
           </p>
           <p>
             Se você reconheceu esses sinais, saiba que eles têm nome —
-            hiperplasia prostática benigna (HPB), o crescimento não canceroso da
+            hiperplasia prostática benigna (HPB), o aumento benigno da
             próstata — e que atingem mais da metade dos homens acima dos 60
             anos. Na maioria dos casos, o tratamento começa com medicamentos.
             Mas quando o remédio deixa de bastar, ou quando os efeitos colaterais
@@ -133,11 +133,12 @@ export default function LaserProstataPage() {
             externo.
           </p>
           <Figure
-            src="/figuras/fig-prostata-laranja.svg"
-            alt="Analogia da próstata como uma laranja: o miolo obstrutivo é removido preservando a casca (cápsula prostática)."
-            caption="A próstata como uma laranja: remove-se o miolo obstrutivo, preserva-se a casca."
-            width={900}
-            height={440}
+            src="/figuras/enucleation.jpg"
+            webp="/figuras/enucleation.webp"
+            alt="Ilustração esquemática da enucleação a laser da próstata: o adenoma é separado da cápsula, que é preservada"
+            caption="Ilustração esquemática, sem escala anatômica · finalidade educativa"
+            width={1600}
+            height={995}
           />
           <p>
             Existem duas famílias de técnica a laser, e a diferença importa:

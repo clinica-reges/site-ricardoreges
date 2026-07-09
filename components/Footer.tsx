@@ -10,7 +10,7 @@ export default function Footer() {
           <p>
             {DOCTOR.crm} · {DOCTOR.rqe}
             <br />
-            Urologia · Cirurgia da próstata a laser e robótica
+            Urologia · Cirurgia da próstata a Laser e robótica
           </p>
         </div>
 

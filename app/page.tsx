@@ -10,12 +10,12 @@ export const metadata: Metadata = {
   title:
     'Dr. Ricardo Reges — Urologista em Fortaleza | Cirurgia de Próstata a Laser e Robótica',
   description:
-    'Urologista em Fortaleza. Professor da UFC, doutor pela UNICAMP. Cirurgia da próstata a laser (HoLEP, GreenLight), robótica, EchoLASER e tratamento de incontinência e disfunção erétil pós-prostatectomia.',
+    'Urologista em Fortaleza. Professor da UFC, doutor pela UNICAMP. Cirurgia da próstata a Laser (HoLEP, GreenLight), robótica, EchoLASER e tratamento de incontinência e disfunção erétil pós-prostatectomia.',
   alternates: { canonical: '/' },
   openGraph: {
     title: 'Dr. Ricardo Reges — Urologista em Fortaleza',
     description:
-      'Cirurgia da próstata a laser e robótica, EchoLASER e reabilitação pós-prostatectomia. Professor da UFC, doutor pela UNICAMP.',
+      'Cirurgia da próstata a Laser e robótica, EchoLASER e reabilitação pós-prostatectomia. Professor da UFC, doutor pela UNICAMP.',
     url: '/',
     images: ['/fotos/dr-ricardo-reges.jpg'],
   },
@@ -35,7 +35,7 @@ export default function HomePage() {
               Prof. Dr. Ricardo Reges · {DOCTOR.crm} · {DOCTOR.rqe}
             </p>
             <p className="hero__credentials">
-              Cirurgia da próstata a laser e robótica · Professor de Urologia da
+              Cirurgia da próstata a Laser e robótica · Professor de Urologia da
               UFC · Doutor pela UNICAMP
             </p>
             <p className="lede">
@@ -72,12 +72,12 @@ export default function HomePage() {
               <p>
                 Levantar várias vezes à noite, jato fraco, a sensação de nunca
                 esvaziar. Quando o remédio já não basta, as técnicas modernas —
-                laser, vapor, ablação — resolvem com menos internação e
+                Laser, vapor, ablação — resolvem com menos internação e
                 recuperação rápida.
               </p>
               <p>
                 <Link className="card__link" href="/cirurgia-laser-prostata/">
-                  Cirurgia a laser da próstata →
+                  Cirurgia a Laser da próstata →
                 </Link>
                 <br />
                 <Link className="card__link" href="/echolaser/">
@@ -146,7 +146,7 @@ export default function HomePage() {
             </li>
             <li>
               <strong>
-                Mais de uma década de cirurgia a laser da próstata
+                Mais de uma década de cirurgia a Laser da próstata
               </strong>{' '}
               (desde 2012), com formação em Houston e na American Urological
               Association — e participação no treinamento de dezenas de

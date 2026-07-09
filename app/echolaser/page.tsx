@@ -11,12 +11,12 @@ export const metadata: Metadata = {
   title:
     'EchoLASER em Fortaleza — Ablação da Próstata a Laser sem Cortes (TPLA) | Dr. Ricardo Reges',
   description:
-    'Tratamento da próstata aumentada sem cortes e com anestesia local: como funciona a ablação transperineal a laser (EchoLASER/TPLA), para quem é indicada e o que dizem os estudos.',
+    'Tratamento da próstata aumentada sem cortes e com anestesia local: como funciona a ablação transperineal a Laser (EchoLASER/TPLA), para quem é indicada e o que dizem os estudos.',
   alternates: { canonical: '/echolaser/' },
   openGraph: {
     title: 'EchoLASER — Ablação da Próstata a Laser sem Cortes (TPLA) em Fortaleza',
     description:
-      'Ablação transperineal a laser da próstata (EchoLASER/TPLA): sem cortes, com anestesia local. Para quem é indicada e o que dizem os estudos.',
+      'Ablação transperineal a Laser da próstata (EchoLASER/TPLA): sem cortes, com anestesia local. Para quem é indicada e o que dizem os estudos.',
     url: '/echolaser/',
   },
 };
@@ -62,7 +62,7 @@ export default function EcholaserPage() {
             name: 'EchoLASER — Ablação Transperineal a Laser da Próstata (TPLA)',
             description: metadata.description as string,
             procedures: [
-              'Ablação transperineal a laser da próstata (TPLA / EchoLASER)',
+              'Ablação transperineal a Laser da próstata (TPLA / EchoLASER)',
             ],
           }),
           faqSchema(FAQ),
@@ -102,7 +102,7 @@ export default function EcholaserPage() {
             basta e uma cirurgia que não cabia.
           </p>
           <p>
-            A ablação transperineal a laser (TPLA, realizada com o sistema
+            A ablação transperineal a Laser (TPLA, realizada com o sistema
             EchoLASER) nasceu exatamente para esse espaço: um procedimento sem
             cortes, sem passar instrumentos pelo canal da urina, realizável com
             anestesia local — em regime ambulatorial na maioria dos casos.
@@ -112,10 +112,10 @@ export default function EcholaserPage() {
           {/* S2 */}
           <h2>Como funciona</h2>
           <p>
-            O princípio é elegante: fibras de laser finíssimas — da espessura de
+            O princípio é elegante: fibras de Laser finíssimas — da espessura de
             um fio de cabelo grosso — são introduzidas através da pele do períneo
             (a região entre o escroto e o ânus) por agulhas finas, guiadas em
-            tempo real por ultrassom. Dentro da próstata, a energia do laser
+            tempo real por ultrassom. Dentro da próstata, a energia do Laser
             aquece e desativa (necrose de coagulação) o tecido que obstrui, a uma
             distância de segurança da uretra e do colo da bexiga, calculada pelo
             sistema de planejamento do próprio equipamento<sup>1</sup>.
@@ -259,7 +259,7 @@ export default function EcholaserPage() {
             </li>
             <li>
               A técnica não chegou aqui isolada: ela se soma a mais de uma década
-              de cirurgia a laser da próstata (GreenLight desde 2012, enucleação,
+              de cirurgia a Laser da próstata (GreenLight desde 2012, enucleação,
               formação em Houston e na AUA) — o que importa, porque a força do
               EchoLASER está na <strong>seleção de quem se beneficia dele</strong>
               , e critério de seleção se constrói dominando todas as alternativas.
@@ -295,7 +295,7 @@ export default function EcholaserPage() {
           <References
             items={[
               <>
-                Pacella CM, et al. Transperineal interstitial laser ablation of
+                Pacella CM, et al. Transperineal interstitial Laser ablation of
                 the prostate (SoracteLite/EchoLaser): técnica e resultados
                 funcionais. <em>Eur Urol Open Sci / Minerva Urol</em> (2020) —
                 IPSS −13,1 em 6 meses; anestesia local; alta em 24h.

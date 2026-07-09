@@ -7,7 +7,7 @@
 ## [H1] Cirurgia a Laser da Próstata em Fortaleza — HoLEP, GreenLight e Rezūm
 
 **[Subtítulo]** Prof. Dr. Ricardo Reges · Urologista · CRM-CE 10659 · RQE 3860
-Cirurgia a laser da próstata desde 2012 · Mais de cem procedimentos realizados
+Cirurgia a Laser da próstata desde 2012 · Mais de cem procedimentos realizados
 
 **[CTA topo]** Agendar avaliação
 
@@ -19,23 +19,23 @@ Levantar três, quatro vezes por noite para urinar. Jato fraco, que demora a com
 
 Se você reconheceu esses sinais, saiba que eles têm nome — hiperplasia prostática benigna (HPB), o aumento benigno da próstata — e que atingem mais da metade dos homens acima dos 60 anos. Na maioria dos casos, o tratamento começa com medicamentos. Mas quando o remédio deixa de bastar, ou quando os efeitos colaterais pesam mais que o benefício, a cirurgia moderna da próstata é muito diferente da que o seu pai talvez tenha feito.
 
-Hoje, as técnicas a laser e minimamente invasivas permitem tratar a obstrução com menos sangramento, menos tempo de sonda e recuperação mais rápida — inclusive em próstatas muito volumosas e em pacientes que usam anticoagulantes.
+Hoje, as técnicas a Laser e minimamente invasivas permitem tratar a obstrução com menos sangramento, menos tempo de sonda e recuperação mais rápida — inclusive em próstatas muito volumosas e em pacientes que usam anticoagulantes.
 
 *(slot de vídeo: Short "Os sinais de que sua próstata cresceu")*
 
 ---
 
-## S2 — Como funciona a cirurgia a laser
+## S2 — Como funciona a cirurgia a Laser
 
-Uma imagem ajuda: pense na próstata como uma laranja. Com o crescimento benigno, o miolo da laranja cresce e aperta o canal da urina que passa por dentro dela. A cirurgia a laser remove esse miolo obstrutivo **preservando a casca** (a cápsula prostática) — tudo por dentro do canal da urina, sem nenhum corte externo.
+Uma imagem ajuda: pense na próstata como uma laranja. Com o crescimento benigno, o miolo da laranja cresce e aperta o canal da urina que passa por dentro dela. A cirurgia a Laser remove esse miolo obstrutivo **preservando a casca** (a cápsula prostática) — tudo por dentro do canal da urina, sem nenhum corte externo.
 
-Existem duas famílias de técnica a laser, e a diferença importa:
+Existem duas famílias de técnica a Laser, e a diferença importa:
 
-**Enucleação (HoLEP / ThuLEP)** — o laser descola e remove o miolo inteiro, em bloco. O tecido removido é enviado para análise patológica (biópsia completa do que foi retirado). É a técnica de escolha para próstatas grandes e o tratamento mais definitivo que existe: a chance de a obstrução voltar é a menor entre todas as opções.
+**Enucleação (HoLEP / ThuLEP)** — o Laser descola e remove o miolo inteiro, em bloco. O tecido removido é enviado para análise patológica (biópsia completa do que foi retirado). É a técnica de escolha para próstatas grandes e o tratamento mais definitivo que existe: a chance de a obstrução voltar é a menor entre todas as opções.
 
-**Vaporização (GreenLight / PVP)** — o laser vaporiza o tecido obstrutivo, camada por camada, com selamento imediato dos vasos. Sangramento mínimo, o que a torna especialmente valiosa para pacientes que não podem suspender anticoagulantes.
+**Vaporização (GreenLight / PVP)** — o Laser vaporiza o tecido obstrutivo, camada por camada, com selamento imediato dos vasos. Sangramento mínimo, o que a torna especialmente valiosa para pacientes que não podem suspender anticoagulantes.
 
-E há uma terceira via, sem laser:
+E há uma terceira via, sem Laser:
 
 **Rezūm (vapor d'água)** — injeções de vapor no tecido prostático, em procedimento rápido e ambulatorial, indicado para próstatas menores em pacientes que priorizam a preservação da ejaculação e um retorno quase imediato à rotina.
 
@@ -46,7 +46,7 @@ E há uma terceira via, sem laser:
 Não existe "a melhor técnica" — existe a técnica certa para a sua próstata, seus exames e sua história. Alguns dos critérios que orientam a decisão:
 
 - **Volume da próstata:** próstatas grandes (acima de ~80 g) favorecem a enucleação; volumes menores abrem espaço para vaporização ou Rezūm.
-- **Uso de anticoagulantes:** o laser (em especial a vaporização GreenLight) permite operar com segurança pacientes que não podem suspender a medicação — estudos multicêntricos, incluindo o ensaio randomizado GOLIATH, demonstraram segurança comparável ou superior à cirurgia convencional, com taxas de transfusão desprezíveis mesmo em pacientes mantidos em antitrombóticos⁷·⁸.
+- **Uso de anticoagulantes:** o Laser (em especial a vaporização GreenLight) permite operar com segurança pacientes que não podem suspender a medicação — estudos multicêntricos, incluindo o ensaio randomizado GOLIATH, demonstraram segurança comparável ou superior à cirurgia convencional, com taxas de transfusão desprezíveis mesmo em pacientes mantidos em antitrombóticos⁷·⁸.
 - **Retenção urinária / uso de sonda:** casos que já dependem de sonda tendem a se beneficiar da desobstrução mais completa (enucleação).
 - **Prioridade na preservação ejaculatória:** o Rezūm apresenta as maiores taxas de preservação; nas técnicas de remoção, a ejaculação retrógrada é frequente (explicada na seção seguinte).
 - **Necessidade de análise do tecido:** a enucleação fornece todo o tecido removido para o patologista.
@@ -70,7 +70,7 @@ A técnica certa para o seu caso é definida na avaliação — com exame de ima
 **"E a parte sexual?"**
 É importante separar duas coisas que costumam ser confundidas:
 
-- **Ereção:** os estudos das técnicas a laser não mostram piora da função erétil atribuível à cirurgia; a disfunção erétil nova é incomum. No Rezūm, o ensaio clínico randomizado com 5 anos de seguimento não encontrou declínio clinicamente significativo da função erétil⁵·⁶.
+- **Ereção:** os estudos das técnicas a Laser não mostram piora da função erétil atribuível à cirurgia; a disfunção erétil nova é incomum. No Rezūm, o ensaio clínico randomizado com 5 anos de seguimento não encontrou declínio clinicamente significativo da função erétil⁵·⁶.
 - **Ejaculação:** nas técnicas de remoção de tecido (enucleação, vaporização), a **ejaculação retrógrada** é frequente — o sêmen passa a ir para a bexiga em vez de sair, sem dor e sem alterar a sensação do orgasmo. Para homens em que a preservação ejaculatória é prioridade, o Rezūm apresenta as melhores taxas: no seguimento de 5 anos, os pacientes mantiveram ejaculação anterógrada, sem piora significativa dos escores ejaculatórios⁵·⁶.
 
 Falar disso abertamente na consulta não é constrangimento — é parte do planejamento cirúrgico.
@@ -81,7 +81,7 @@ Falar disso abertamente na consulta não é constrangimento — é parte do plan
 
 ## S5 — Como é a recuperação
 
-Cada caso tem seu ritmo, mas o roteiro típico da cirurgia a laser é este:
+Cada caso tem seu ritmo, mas o roteiro típico da cirurgia a Laser é este:
 
 - **Internação:** alta em 24–48 horas na maioria dos casos [CONFIRMAR: sua rotina].
 - **Sonda:** retirada precoce — frequentemente em 24–48 horas [CONFIRMAR: sua rotina por técnica].
@@ -97,14 +97,14 @@ Cada caso tem seu ritmo, mas o roteiro típico da cirurgia a laser é este:
 
 Fatos, não adjetivos:
 
-- Cirurgia a laser da próstata desde 2012 — mais de uma década de prática contínua, com mais de cem procedimentos realizados.
+- Cirurgia a Laser da próstata desde 2012 — mais de uma década de prática contínua, com mais de cem procedimentos realizados.
 - Formação internacional na técnica: BPH Laser Therapy — American Urological Association (2011); Current Trends in the Treatment of BPH — GreenLight, F. Brantley Scott Physician Academy, Houston, Texas (2012, 40h).
 - Entre os primeiros urologistas do Brasil a realizar a vaporização GreenLight, com participação no treinamento de dezenas de urologistas na América Latina na técnica.
 - Medalha Alberto Gentile (AMB/SBU) — concedida anualmente a um único residente de urologia no país; 1º lugar nacional no título de especialista da SBU (2007).
 - Doutorado em Cirurgia (UNICAMP) e pós-doutorado (UFC); Professor de Urologia da Universidade Federal do Ceará, com mais de 35 artigos publicados em periódicos como *The Journal of Urology* e *International Brazilian Journal of Urology*.
 - Membro internacional da American Urological Association desde 2012; ex-membro do Departamento de HPB da Sociedade Brasileira de Urologia.
 
-*(slot de vídeo: Short "Minha trajetória com o laser de próstata")*
+*(slot de vídeo: Short "Minha trajetória com o Laser de próstata")*
 
 ---
 
@@ -126,10 +126,10 @@ Após a enucleação, a recidiva da obstrução é rara — é a técnica com me
 Sim. A cirurgia de HPB trata a parte interna da próstata; a cápsula permanece, e o acompanhamento (PSA e exame) continua no ritmo adequado à sua idade e risco.
 
 **Tomo anticoagulante. Posso operar?**
-Frequentemente sim — essa é uma das principais vantagens do laser. A conduta sobre a medicação é individualizada com o cardiologista.
+Frequentemente sim — essa é uma das principais vantagens do Laser. A conduta sobre a medicação é individualizada com o cardiologista.
 
 **O convênio cobre? Como funciona o particular?**
-As técnicas a laser são realizadas em regime particular; a cobertura por planos de saúde depende de cada contrato e técnica, e orientamos a verificação caso a caso. Na consulta de avaliação, você recebe todas as condições com transparência, sem surpresas.
+As técnicas a Laser são realizadas em regime particular; a cobertura por planos de saúde depende de cada contrato e técnica, e orientamos a verificação caso a caso. Na consulta de avaliação, você recebe todas as condições com transparência, sem surpresas.
 
 **Existe idade limite?**
 Não há limite rígido de idade — a decisão considera o estado clínico geral, e o objetivo é justamente devolver qualidade de vida e sono em qualquer fase.
@@ -170,7 +170,7 @@ O primeiro passo não é escolher uma técnica — é uma avaliação completa: 
 
 - **Schema.org:** `MedicalWebPage` + `MedicalProcedure` (HoLEP, PVP, Rezūm como `medicalSpecialty: Urologic`), `FAQPage` na S7, `Physician` referenciando a página Sobre.
 - **Title tag sugerido:** "Cirurgia a Laser da Próstata em Fortaleza | HoLEP, GreenLight e Rezūm — Dr. Ricardo Reges" (~70 chars).
-- **Meta description:** "Tratamento da próstata aumentada (HPB) com laser HoLEP, GreenLight e Rezūm em Fortaleza. Mais de uma década de experiência. Entenda qual técnica é a certa para o seu caso."
-- **Palavras-alvo (do Search Console + intenção):** cirurgia laser próstata, holep fortaleza, greenlight próstata, cirurgia próstata aumentada, rezum brasil.
+- **Meta description:** "Tratamento da próstata aumentada (HPB) com Laser HoLEP, GreenLight e Rezūm em Fortaleza. Mais de uma década de experiência. Entenda qual técnica é a certa para o seu caso."
+- **Palavras-alvo (do Search Console + intenção):** cirurgia Laser próstata, holep fortaleza, greenlight próstata, cirurgia próstata aumentada, rezum brasil.
 - **Cartas de referência (Houston Methodist / UT Southwestern):** NÃO publicar; manter arquivadas como comprovação das afirmações da S6 em caso de questionamento.
 - **Vídeos:** 3 slots marcados; pauta dos Shorts derivada das S1, S4 e S6.

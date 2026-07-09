@@ -12,12 +12,12 @@ export const metadata: Metadata = {
   title:
     'Cirurgia a Laser da Próstata em Fortaleza | HoLEP, GreenLight e Rezūm — Dr. Ricardo Reges',
   description:
-    'Tratamento da próstata aumentada (HPB) com laser HoLEP, GreenLight e Rezūm em Fortaleza. Mais de uma década de experiência. Entenda qual técnica é a certa para o seu caso.',
+    'Tratamento da próstata aumentada (HPB) com Laser HoLEP, GreenLight e Rezūm em Fortaleza. Mais de uma década de experiência. Entenda qual técnica é a certa para o seu caso.',
   alternates: { canonical: '/cirurgia-laser-prostata/' },
   openGraph: {
     title: 'Cirurgia a Laser da Próstata em Fortaleza — HoLEP, GreenLight e Rezūm',
     description:
-      'Próstata aumentada (HPB): entenda as técnicas a laser e minimamente invasivas e qual é a certa para o seu caso.',
+      'Próstata aumentada (HPB): entenda as técnicas a Laser e minimamente invasivas e qual é a certa para o seu caso.',
     url: '/cirurgia-laser-prostata/',
   },
 };
@@ -45,11 +45,11 @@ const FAQ = [
   },
   {
     q: 'Tomo anticoagulante. Posso operar?',
-    a: 'Frequentemente sim — essa é uma das principais vantagens do laser. A conduta sobre a medicação é individualizada com o cardiologista.',
+    a: 'Frequentemente sim — essa é uma das principais vantagens do Laser. A conduta sobre a medicação é individualizada com o cardiologista.',
   },
   {
     q: 'O convênio cobre? Como funciona o particular?',
-    a: 'As técnicas a laser são realizadas em regime particular; a cobertura por planos de saúde depende de cada contrato e técnica, e orientamos a verificação caso a caso. Na consulta de avaliação, você recebe todas as condições com transparência, sem surpresas.',
+    a: 'As técnicas a Laser são realizadas em regime particular; a cobertura por planos de saúde depende de cada contrato e técnica, e orientamos a verificação caso a caso. Na consulta de avaliação, você recebe todas as condições com transparência, sem surpresas.',
   },
   {
     q: 'Existe idade limite?',
@@ -67,7 +67,7 @@ export default function LaserProstataPage() {
             name: 'Cirurgia a Laser da Próstata — HoLEP, GreenLight e Rezūm',
             description: metadata.description as string,
             procedures: [
-              'Enucleação prostática a laser (HoLEP / ThuLEP)',
+              'Enucleação prostática a Laser (HoLEP / ThuLEP)',
               'Vaporização prostática (GreenLight / PVP)',
               'Terapia com vapor d’água (Rezūm)',
             ],
@@ -87,7 +87,7 @@ export default function LaserProstataPage() {
             <strong>Prof. Dr. Ricardo Reges</strong> · Urologista · {DOCTOR.crm}{' '}
             · {DOCTOR.rqe}
             <br />
-            Cirurgia a laser da próstata desde 2012 · Mais de cem procedimentos
+            Cirurgia a Laser da próstata desde 2012 · Mais de cem procedimentos
             realizados
           </p>
           <div className="cta-row">
@@ -115,7 +115,7 @@ export default function LaserProstataPage() {
             diferente da que o seu pai talvez tenha feito.
           </p>
           <p>
-            Hoje, as técnicas a laser e minimamente invasivas permitem tratar a
+            Hoje, as técnicas a Laser e minimamente invasivas permitem tratar a
             obstrução com menos sangramento, menos tempo de sonda e recuperação
             mais rápida — inclusive em próstatas muito volumosas e em pacientes
             que usam anticoagulantes.
@@ -123,11 +123,11 @@ export default function LaserProstataPage() {
           <VideoSlot label="Os sinais de que sua próstata cresceu" />
 
           {/* S2 */}
-          <h2>Como funciona a cirurgia a laser</h2>
+          <h2>Como funciona a cirurgia a Laser</h2>
           <p>
             Uma imagem ajuda: pense na próstata como uma laranja. Com o
             crescimento benigno, o miolo da laranja cresce e aperta o canal da
-            urina que passa por dentro dela. A cirurgia a laser remove esse miolo
+            urina que passa por dentro dela. A cirurgia a Laser remove esse miolo
             obstrutivo <strong>preservando a casca</strong> (a cápsula
             prostática) — tudo por dentro do canal da urina, sem nenhum corte
             externo.
@@ -135,16 +135,16 @@ export default function LaserProstataPage() {
           <Figure
             src="/figuras/enucleation.jpg"
             webp="/figuras/enucleation.webp"
-            alt="Ilustração esquemática da enucleação a laser da próstata: o adenoma é separado da cápsula, que é preservada"
+            alt="Ilustração esquemática da enucleação a Laser da próstata: o adenoma é separado da cápsula, que é preservada"
             caption="Ilustração esquemática, sem escala anatômica · finalidade educativa"
             width={1600}
             height={995}
           />
           <p>
-            Existem duas famílias de técnica a laser, e a diferença importa:
+            Existem duas famílias de técnica a Laser, e a diferença importa:
           </p>
           <p>
-            <strong>Enucleação (HoLEP / ThuLEP)</strong> — o laser descola e
+            <strong>Enucleação (HoLEP / ThuLEP)</strong> — o Laser descola e
             remove o miolo inteiro, em bloco. O tecido removido é enviado para
             análise patológica (biópsia completa do que foi retirado). É a
             técnica de escolha para próstatas grandes e o tratamento mais
@@ -152,12 +152,12 @@ export default function LaserProstataPage() {
             todas as opções.
           </p>
           <p>
-            <strong>Vaporização (GreenLight / PVP)</strong> — o laser vaporiza o
+            <strong>Vaporização (GreenLight / PVP)</strong> — o Laser vaporiza o
             tecido obstrutivo, camada por camada, com selamento imediato dos
             vasos. Sangramento mínimo, o que a torna especialmente valiosa para
             pacientes que não podem suspender anticoagulantes.
           </p>
-          <p>E há uma terceira via, sem laser:</p>
+          <p>E há uma terceira via, sem Laser:</p>
           <p>
             <strong>Rezūm (vapor d’água)</strong> — injeções de vapor no tecido
             prostático, em procedimento rápido e ambulatorial, indicado para
@@ -179,7 +179,7 @@ export default function LaserProstataPage() {
               vaporização ou Rezūm.
             </li>
             <li>
-              <strong>Uso de anticoagulantes:</strong> o laser (em especial a
+              <strong>Uso de anticoagulantes:</strong> o Laser (em especial a
               vaporização GreenLight) permite operar com segurança pacientes que
               não podem suspender a medicação — estudos multicêntricos, incluindo
               o ensaio randomizado GOLIATH, demonstraram segurança comparável ou
@@ -265,7 +265,7 @@ export default function LaserProstataPage() {
             </p>
             <ul>
               <li>
-                <strong>Ereção:</strong> os estudos das técnicas a laser não
+                <strong>Ereção:</strong> os estudos das técnicas a Laser não
                 mostram piora da função erétil atribuível à cirurgia; a disfunção
                 erétil nova é incomum. No Rezūm, o ensaio clínico randomizado com
                 5 anos de seguimento não encontrou declínio clinicamente
@@ -292,7 +292,7 @@ export default function LaserProstataPage() {
           {/* S5 */}
           <h2>Como é a recuperação</h2>
           <p>
-            Cada caso tem seu ritmo, mas o roteiro típico da cirurgia a laser é
+            Cada caso tem seu ritmo, mas o roteiro típico da cirurgia a Laser é
             este:
           </p>
           <ul>
@@ -321,7 +321,7 @@ export default function LaserProstataPage() {
           </ul>
           <Figure
             src="/figuras/fig-recuperacao-laser.svg"
-            alt="Linha do tempo típica da recuperação da cirurgia a laser da próstata: D0, D2, semana 1 e semana 4."
+            alt="Linha do tempo típica da recuperação da cirurgia a Laser da próstata: D0, D2, semana 1 e semana 4."
             caption="Recuperação típica — do dia da cirurgia à quarta semana."
             width={900}
             height={300}
@@ -332,7 +332,7 @@ export default function LaserProstataPage() {
           <p>Fatos, não adjetivos:</p>
           <ul>
             <li>
-              Cirurgia a laser da próstata desde 2012 — mais de uma década de
+              Cirurgia a Laser da próstata desde 2012 — mais de uma década de
               prática contínua, com mais de cem procedimentos realizados.
             </li>
             <li>
@@ -363,7 +363,7 @@ export default function LaserProstataPage() {
               Urologia.
             </li>
           </ul>
-          <VideoSlot label="Minha trajetória com o laser de próstata" />
+          <VideoSlot label="Minha trajetória com o Laser de próstata" />
 
           {/* S7 — FAQ */}
           <h2>Perguntas frequentes</h2>

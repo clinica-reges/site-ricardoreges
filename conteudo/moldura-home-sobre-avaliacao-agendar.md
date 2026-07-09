@@ -9,7 +9,7 @@
 ## [H1] Dr. Ricardo Reges — Urologista em Fortaleza
 
 **[Sub]** Prof. Dr. Ricardo Reges · CRM-CE 10659 · RQE 3860
-Cirurgia da próstata a laser e robótica · Professor de Urologia da UFC · Doutor pela UNICAMP
+Cirurgia da próstata a Laser e robótica · Professor de Urologia da UFC · Doutor pela UNICAMP
 
 **[Foto profissional — a peça central da dobra]**
 
@@ -23,8 +23,8 @@ Há mais de vinte anos, dedico minha prática a devolver aos homens duas coisas 
 ### [Seção: O que trato — as portas de entrada, na língua do paciente]
 
 **🔵 Próstata aumentada (HPB)**
-Levantar várias vezes à noite, jato fraco, a sensação de nunca esvaziar. Quando o remédio já não basta, as técnicas modernas — laser, vapor, ablação — resolvem com menos internação e recuperação rápida.
-→ *Cirurgia a laser da próstata* (P1) · → *EchoLASER: ablação sem cortes* (P3)
+Levantar várias vezes à noite, jato fraco, a sensação de nunca esvaziar. Quando o remédio já não basta, as técnicas modernas — Laser, vapor, ablação — resolvem com menos internação e recuperação rápida.
+→ *Cirurgia a Laser da próstata* (P1) · → *EchoLASER: ablação sem cortes* (P3)
 
 **🔵 Câncer de próstata**
 Do diagnóstico à decisão, com todas as rotas na mesa — cirurgia robótica, radioterapia, vigilância ativa — e o acompanhamento completo, incluindo a reabilitação que a maioria dos serviços não oferece.
@@ -43,7 +43,7 @@ Antes de tratar, medir. A avaliação urodinâmica revela o que a bexiga e a pr�
 ### [Seção: Por que aqui — a régua de autoridade, 5 fatos]
 
 - **Medalha Alberto Gentile** — concedida pela AMB/SBU ao melhor residente de urologia do Brasil; 1º lugar nacional no título de especialista (2007).
-- **Mais de uma década de cirurgia a laser da próstata** (desde 2012), com formação em Houston e na American Urological Association — e participação no treinamento de dezenas de urologistas na América Latina.
+- **Mais de uma década de cirurgia a Laser da próstata** (desde 2012), com formação em Houston e na American Urological Association — e participação no treinamento de dezenas de urologistas na América Latina.
 - **Cirurgia robótica** com agenda semanal regular no Hospital São Camilo; certificação Intuitive no Hospital Israelita Albert Einstein.
 - **Professor de Urologia da Universidade Federal do Ceará**, doutor pela UNICAMP, autor do livro *Avaliação Urodinâmica e suas Aplicações Clínicas* e de mais de 35 artigos científicos.
 - **Subespecialização única no ciclo completo:** as duas complicações mais temidas da cirurgia de próstata — continência e função sexual — são a minha área de pesquisa e prática há duas décadas.
@@ -61,7 +61,7 @@ Antes de tratar, medir. A avaliação urodinâmica revela o que a bexiga e a pr�
 
 *[Rodapé global do site]* Dr. Ricardo Reges · CRM-CE 10659 · RQE 3860 · Rua Costa Barros, 833 · Aldeota · Fortaleza/CE · Conteúdo em conformidade com as normas de publicidade médica do CFM.
 
-**[Notas técnicas Home]** Schema: `Physician` completo (nome, CRM, especialidade, endereço, formação, sameAs → Lattes/Instagram/LinkedIn). Title: "Dr. Ricardo Reges — Urologista em Fortaleza | Cirurgia de Próstata a Laser e Robótica". Meta: "Urologista em Fortaleza. Professor da UFC, doutor pela UNICAMP. Cirurgia da próstata a laser (HoLEP, GreenLight), robótica, EchoLASER e tratamento de incontinência e disfunção erétil pós-prostatectomia." A home é a página do nome: captura as buscas "ricardo reges urologista" que já convertem a 10–15% de CTR.
+**[Notas técnicas Home]** Schema: `Physician` completo (nome, CRM, especialidade, endereço, formação, sameAs → Lattes/Instagram/LinkedIn). Title: "Dr. Ricardo Reges — Urologista em Fortaleza | Cirurgia de Próstata a Laser e Robótica". Meta: "Urologista em Fortaleza. Professor da UFC, doutor pela UNICAMP. Cirurgia da próstata a Laser (HoLEP, GreenLight), robótica, EchoLASER e tratamento de incontinência e disfunção erétil pós-prostatectomia." A home é a página do nome: captura as buscas "ricardo reges urologista" que já convertem a 10–15% de CTR.
 
 ═══════════════════════════════════════════════════════════
 # PÁGINA 2 — SOBRE O DR. RICARDO REGES
@@ -76,7 +76,7 @@ Ricardo Reges Maia de Oliveira é urologista, professor de Urologia da Universid
 
 Formado pela UFC (2000), fez residência em Cirurgia Geral e em Urologia na UNICAMP, onde concluiu o programa com o 1º lugar nacional na prova de título de especialista da Sociedade Brasileira de Urologia e a **Medalha Alberto Gentile** — distinção concedida pela Associação Médica Brasileira e pela SBU a um único residente de urologia do país por ano.
 
-Nas duas décadas seguintes, especializou-se no aparelho urinário inferior masculino em todo o seu ciclo: da hiperplasia e do câncer de próstata (cirurgia a laser desde 2012; robótica com agenda semanal regular) à reabilitação das suas sequelas — incontinência urinária e disfunção erétil — área em que dirigiu o Departamento de Sexualidade da Sociedade Brasileira de Urologia por quase uma década.
+Nas duas décadas seguintes, especializou-se no aparelho urinário inferior masculino em todo o seu ciclo: da hiperplasia e do câncer de próstata (cirurgia a Laser desde 2012; robótica com agenda semanal regular) à reabilitação das suas sequelas — incontinência urinária e disfunção erétil — área em que dirigiu o Departamento de Sexualidade da Sociedade Brasileira de Urologia por quase uma década.
 
 ### Linha do tempo
 
@@ -85,14 +85,14 @@ Nas duas décadas seguintes, especializou-se no aparelho urinário inferior masc
 - **2007** — 1º lugar nacional no Título de Especialista (SBU) · **Medalha Alberto Gentile** (AMB/SBU)
 - **2009** — Doutorado em Ciências da Cirurgia, UNICAMP
 - **2010–2013** — Pós-doutorado, UFC (bolsista CNPq/FUNCAP)
-- **2011–2012** — Formação internacional em cirurgia a laser da próstata: BPH Laser Therapy (American Urological Association) e GreenLight (F. Brantley Scott Physician Academy, Houston, 40h); AMS 800 — esfíncter urinário artificial (F. Brantley Scott Academy, Houston, 40h)
-- **2012** — Início da prática de cirurgia a laser da próstata · Membro internacional da American Urological Association
+- **2011–2012** — Formação internacional em cirurgia a Laser da próstata: BPH Laser Therapy (American Urological Association) e GreenLight (F. Brantley Scott Physician Academy, Houston, 40h); AMS 800 — esfíncter urinário artificial (F. Brantley Scott Academy, Houston, 40h)
+- **2012** — Início da prática de cirurgia a Laser da próstata · Membro internacional da American Urological Association
 - **2013 — atual** — Professor de Urologia, UFC; atualmente vice-chefe do Departamento de Cirurgia
 - **2015** — Publicação do livro *Avaliação Urodinâmica e suas Aplicações Clínicas* (Ed. Atheneu, 345 p., com Carlos D'Ancona)
 - **2009–2018** — Diretoria do Departamento de Sexualidade da SBU; Departamento de HPB da SBU (2016–2018)
 - **2018** — Patente depositada no INPI: stent ureteral com cobertura de hidrogel e carga farmacológica
 - **2025** — Certificação em cirurgia robótica (Intuitive — Hospital Israelita Albert Einstein, São Paulo); prática robótica no Hospital São Camilo, Fortaleza
-- **2026** — Incorporação da ablação transperineal a laser (EchoLASER), com os primeiros procedimentos em ambiente de hospital universitário (HUWC-UFC)
+- **2026** — Incorporação da ablação transperineal a Laser (EchoLASER), com os primeiros procedimentos em ambiente de hospital universitário (HUWC-UFC)
 
 ### Produção científica e reconhecimento
 
@@ -100,7 +100,7 @@ Nas duas décadas seguintes, especializou-se no aparelho urinário inferior masc
 - Autor de capítulos de livro, incluindo colaboração internacional em *Neuropatias Periféricas* (SBU, 2017).
 - Ex-editor associado e revisor do *International Brazilian Journal of Urology*; revisor de periódicos internacionais.
 - Orientador de dissertações de mestrado, teses de doutorado e supervisões de pós-doutorado na UFC, com linha ativa em câncer de próstata (efeitos da terapia de privação androgênica) e pesquisa translacional (reconstrução com matriz de pele de tilápia; novas formulações para disfunção erétil).
-- Instrutor e proctor em educação médica: participação no treinamento de dezenas de urologistas latino-americanos em cirurgia a laser da próstata, e em programas de formação em restauração erétil ao lado de referências internacionais.
+- Instrutor e proctor em educação médica: participação no treinamento de dezenas de urologistas latino-americanos em cirurgia a Laser da próstata, e em programas de formação em restauração erétil ao lado de referências internacionais.
 
 **[CTA discreto]** Conheça a abordagem: Agendar avaliação
 

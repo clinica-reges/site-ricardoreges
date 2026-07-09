@@ -29,7 +29,7 @@ export function physicianSchema() {
     image: `${SITE_URL}/fotos/dr-ricardo-reges.jpg`,
     medicalSpecialty: 'Urologic',
     description:
-      'Urologista em Fortaleza. Professor de Urologia da UFC, doutor pela UNICAMP. Cirurgia da próstata a laser (HoLEP, GreenLight), robótica, EchoLASER e tratamento de incontinência e disfunção erétil pós-prostatectomia.',
+      'Urologista em Fortaleza. Professor de Urologia da UFC, doutor pela UNICAMP. Cirurgia da próstata a Laser (HoLEP, GreenLight), robótica, EchoLASER e tratamento de incontinência e disfunção erétil pós-prostatectomia.',
     telephone: '+55-85-99698-3366',
     address: postalAddress(),
     identifier: [
@@ -47,7 +47,7 @@ export function physicianSchema() {
     knowsAbout: [
       'Hiperplasia prostática benigna',
       'Câncer de próstata',
-      'Cirurgia a laser da próstata',
+      'Cirurgia a Laser da próstata',
       'Cirurgia robótica',
       'Incontinência urinária pós-prostatectomia',
       'Disfunção erétil',

@@ -17,7 +17,7 @@ Tratamento minimamente invasivo da hiperplasia prostática benigna (HPB)
 
 Há homens com próstata aumentada para quem a cirurgia convencional pesa demais — pela saúde, pela idade, pelos anticoagulantes que não podem parar, pelo medo da anestesia geral. E há os que poderiam operar, mas têm uma prioridade inegociável: preservar a ejaculação. Durante anos, esses dois grupos ficaram entre o remédio que já não basta e uma cirurgia que não cabia.
 
-A ablação transperineal a laser (TPLA, realizada com o sistema EchoLASER) nasceu exatamente para esse espaço: um procedimento sem cortes, sem passar instrumentos pelo canal da urina, realizável com anestesia local — em regime ambulatorial na maioria dos casos.
+A ablação transperineal a Laser (TPLA, realizada com o sistema EchoLASER) nasceu exatamente para esse espaço: um procedimento sem cortes, sem passar instrumentos pelo canal da urina, realizável com anestesia local — em regime ambulatorial na maioria dos casos.
 
 *(slot de vídeo: Short "A cirurgia de próstata sem cortes que quase ninguém conhece")*
 
@@ -25,7 +25,7 @@ A ablação transperineal a laser (TPLA, realizada com o sistema EchoLASER) nasc
 
 ## S2 — Como funciona
 
-O princípio é elegante: fibras de laser finíssimas — da espessura de um fio de cabelo grosso — são introduzidas através da pele do períneo (a região entre o escroto e o ânus) por agulhas finas, guiadas em tempo real por ultrassom. Dentro da próstata, a energia do laser aquece e desativa (necrose de coagulação) o tecido que obstrui, a uma distância de segurança da uretra e do colo da bexiga, calculada pelo sistema de planejamento do próprio equipamento¹.
+O princípio é elegante: fibras de Laser finíssimas — da espessura de um fio de cabelo grosso — são introduzidas através da pele do períneo (a região entre o escroto e o ânus) por agulhas finas, guiadas em tempo real por ultrassom. Dentro da próstata, a energia do Laser aquece e desativa (necrose de coagulação) o tecido que obstrui, a uma distância de segurança da uretra e do colo da bexiga, calculada pelo sistema de planejamento do próprio equipamento¹.
 
 Nas semanas seguintes, o organismo reabsorve o tecido tratado e a próstata diminui — nos estudos com seguimento de 12 meses, a redução do adenoma (a parte que obstrui) chegou a ~58%², com o canal urinário respirando de novo.
 
@@ -73,7 +73,7 @@ Se o seu caso é câncer, o caminho é outro: avaliação uro-oncológica comple
 Fatos, não adjetivos:
 
 - Técnica incorporada à prática em junho de 2026, com os primeiros procedimentos realizados em ambiente de hospital universitário — o Hospital Universitário Walter Cantídio (UFC), onde o Dr. Ricardo Reges é professor de urologia. A adoção dentro da estrutura acadêmica reflete o critério com que novas tecnologias entram nesta prática: avaliação rigorosa antes, seleção criteriosa sempre.
-- A técnica não chegou aqui isolada: ela se soma a mais de uma década de cirurgia a laser da próstata (GreenLight desde 2012, enucleação, formação em Houston e na AUA) — o que importa, porque a força do EchoLASER está na **seleção de quem se beneficia dele**, e critério de seleção se constrói dominando todas as alternativas. Quem só tem um martelo vê pregos; aqui, a caixa de ferramentas está completa. *(link → P1)*
+- A técnica não chegou aqui isolada: ela se soma a mais de uma década de cirurgia a Laser da próstata (GreenLight desde 2012, enucleação, formação em Houston e na AUA) — o que importa, porque a força do EchoLASER está na **seleção de quem se beneficia dele**, e critério de seleção se constrói dominando todas as alternativas. Quem só tem um martelo vê pregos; aqui, a caixa de ferramentas está completa. *(link → P1)*
 - Professor de Urologia da UFC, doutorado (UNICAMP), pós-doutorado; autor do livro "Avaliação Urodinâmica e suas Aplicações Clínicas" — a avaliação que define se esta técnica é a certa para você.
 
 ---
@@ -114,7 +114,7 @@ Esta técnica é excelente — para o paciente certo. Descobrir se você é esse
 
 ## Referências (seção recolhível)
 
-1. Pacella CM, et al. Transperineal interstitial laser ablation of the prostate (SoracteLite/EchoLaser): técnica e resultados funcionais. *Eur Urol Open Sci / Minerva Urol* (2020) — IPSS −13,1 em 6 meses; anestesia local; alta em 24h.
+1. Pacella CM, et al. Transperineal interstitial Laser ablation of the prostate (SoracteLite/EchoLaser): técnica e resultados funcionais. *Eur Urol Open Sci / Minerva Urol* (2020) — IPSS −13,1 em 6 meses; anestesia local; alta em 24h.
 2. Coorte real 53 pacientes, 12 meses: IPSS mediana 30→13; Qmax 5,5→13 ml/s; redução de volume do adenoma 58,3%; função erétil estável; melhora ejaculatória (MSHQ). *J Clin Med* (2025).
 3. Série EchoLaser 38 pacientes: procedimento mediano 31 min; ambulatorial; ejaculação preservada em todos os pacientes ativos; sem complicações Clavien-Dindo ≥2. *Front Urol* (2022).
 4. Estudo piloto multicêntrico prospectivo (n=20), 12 meses: IPSS 21,3→10,9; ejaculação anterógrada preservada em 85%; retenção transitória com sonda temporária em parte dos casos; sem eventos adversos do dispositivo. *BJUI Compass* (2023).
@@ -129,8 +129,8 @@ Esta técnica é excelente — para o paciente certo. Descobrir se você é esse
 ## Notas técnicas (não publicar)
 - Schema: MedicalWebPage + MedicalProcedure (TPLA) + FAQPage.
 - Title: "EchoLASER em Fortaleza — Ablação da Próstata a Laser sem Cortes (TPLA) | Dr. Ricardo Reges"
-- Meta: "Tratamento da próstata aumentada sem cortes e com anestesia local: como funciona a ablação transperineal a laser (EchoLASER/TPLA), para quem é indicada e o que dizem os estudos."
-- Palavras-alvo: echolaser próstata, tpla próstata brasil, ablação laser próstata, tratamento próstata sem cirurgia, cirurgia próstata anestesia local.
+- Meta: "Tratamento da próstata aumentada sem cortes e com anestesia local: como funciona a ablação transperineal a Laser (EchoLASER/TPLA), para quem é indicada e o que dizem os estudos."
+- Palavras-alvo: echolaser próstata, tpla próstata brasil, ablação Laser próstata, tratamento próstata sem cirurgia, cirurgia próstata anestesia local.
 - Links internos: → P1 (2 âncoras: seleção de técnica); → P2 (S4, caso oncológico); → Avaliação.
 - Regra editorial desta página: NUNCA apresentar como terapia de câncer; a S4 é cláusula pétrea. Evidência sempre com horizonte temporal declarado ("em 12 meses").
 - Vídeos: 1 slot (S1) — este é o Short com maior potencial viral do site (técnica desconhecida + "sem cortes").

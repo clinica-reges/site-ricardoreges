@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title:
     'Sobre — Prof. Dr. Ricardo Reges | Urologista, Professor UFC, Doutor UNICAMP',
   description:
-    'Trajetória do Prof. Dr. Ricardo Reges: urologista, professor da UFC, doutor pela UNICAMP. Cirurgia da próstata a laser e robótica, pesquisa científica e formação de urologistas.',
+    'Trajetória do Prof. Dr. Ricardo Reges: urologista, professor da UFC, doutor pela UNICAMP. Cirurgia da próstata a Laser e robótica, pesquisa científica e formação de urologistas.',
   alternates: { canonical: '/sobre/' },
   openGraph: {
     title: 'Sobre — Prof. Dr. Ricardo Reges',
     description:
-      'Urologista, professor da UFC, doutor pela UNICAMP. Cirurgia da próstata a laser e robótica, pesquisa científica e formação de urologistas.',
+      'Urologista, professor da UFC, doutor pela UNICAMP. Cirurgia da próstata a Laser e robótica, pesquisa científica e formação de urologistas.',
     url: '/sobre/',
     images: ['/fotos/dr-ricardo-reges-retrato.jpg'],
   },
@@ -40,7 +40,7 @@ const TIMELINE: { year: string; text: React.ReactNode }[] = [
     year: '2011–2012',
     text: (
       <>
-        Formação internacional em cirurgia a laser da próstata: BPH Laser
+        Formação internacional em cirurgia a Laser da próstata: BPH Laser
         Therapy (American Urological Association) e GreenLight (F. Brantley Scott
         Physician Academy, Houston, 40h); AMS 800 — esfíncter urinário artificial
         (F. Brantley Scott Academy, Houston, 40h)
@@ -51,7 +51,7 @@ const TIMELINE: { year: string; text: React.ReactNode }[] = [
     year: '2012',
     text: (
       <>
-        Início da prática de cirurgia a laser da próstata · Membro internacional
+        Início da prática de cirurgia a Laser da próstata · Membro internacional
         da American Urological Association
       </>
     ),
@@ -105,7 +105,7 @@ const TIMELINE: { year: string; text: React.ReactNode }[] = [
     year: '2026',
     text: (
       <>
-        Incorporação da ablação transperineal a laser (EchoLASER), com os
+        Incorporação da ablação transperineal a Laser (EchoLASER), com os
         primeiros procedimentos em ambiente de hospital universitário (HUWC-UFC)
       </>
     ),
@@ -149,7 +149,7 @@ export default function SobrePage() {
               <p>
                 Nas duas décadas seguintes, especializou-se no aparelho urinário
                 inferior masculino em todo o seu ciclo: da hiperplasia e do câncer
-                de próstata (cirurgia a laser desde 2012; robótica com agenda
+                de próstata (cirurgia a Laser desde 2012; robótica com agenda
                 semanal regular) à reabilitação das suas sequelas — incontinência
                 urinária e disfunção erétil — área em que dirigiu o Departamento
                 de Sexualidade da Sociedade Brasileira de Urologia por quase uma
@@ -203,7 +203,7 @@ export default function SobrePage() {
               <li>
                 Instrutor e proctor em educação médica: participação no
                 treinamento de dezenas de urologistas latino-americanos em
-                cirurgia a laser da próstata, e em programas de formação em
+                cirurgia a Laser da próstata, e em programas de formação em
                 restauração erétil ao lado de referências internacionais.
               </li>
             </ul>

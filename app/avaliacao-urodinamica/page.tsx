@@ -150,7 +150,7 @@ export default function AvaliacaoPage() {
 
           <div className="crosslinks" style={{ marginTop: '2rem' }}>
             <Link href="/cirurgia-laser-prostata/">
-              Decisão da técnica (próstata a laser) →
+              Decisão da técnica (próstata a Laser) →
             </Link>
             <Link href="/pos-prostatectomia/">
               O degrau do tratamento pós-próstata →

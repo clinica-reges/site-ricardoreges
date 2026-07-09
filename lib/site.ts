@@ -5,11 +5,11 @@
 // ─────────────────────────────────────────────────────────────
 
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL || 'https://www.ricardoreges.com.br'
+  process.env.NEXT_PUBLIC_SITE_URL || 'https://ricardoreges.com.br'
 ).replace(/\/$/, '');
 
 export const BOOKING_BASE =
-  process.env.NEXT_PUBLIC_BOOKING_URL || 'https://agendar.docflow.com.br/ricardoreges';
+  process.env.NEXT_PUBLIC_BOOKING_URL || 'https://docflow.med.br/dr-ricardo';
 
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || '';
 
@@ -39,11 +39,15 @@ export const ADDRESS = {
   hours: 'Segunda a sexta, 9h às 18h',
 };
 
-// Perfis oficiais para Physician.sameAs (JSON-LD). Vazios são omitidos.
+// Perfis oficiais para Physician.sameAs (JSON-LD). Ordem exata confirmada:
+// Lattes · Google Scholar · LinkedIn · Instagram · YouTube. Vazios são omitidos.
 export const SAME_AS = [
-  process.env.NEXT_PUBLIC_LATTES_URL,
-  process.env.NEXT_PUBLIC_INSTAGRAM_URL,
-  process.env.NEXT_PUBLIC_LINKEDIN_URL,
+  process.env.NEXT_PUBLIC_LATTES_URL || 'https://lattes.cnpq.br/4524635826900536',
+  process.env.NEXT_PUBLIC_SCHOLAR_URL ||
+    'https://scholar.google.com/citations?hl=pt-BR&user=s5ud4h8AAAAJ',
+  process.env.NEXT_PUBLIC_LINKEDIN_URL || 'https://www.linkedin.com/in/regesricardo/',
+  process.env.NEXT_PUBLIC_INSTAGRAM_URL || 'https://www.instagram.com/urologiabrasil/',
+  process.env.NEXT_PUBLIC_YOUTUBE_URL || 'https://www.youtube.com/@RicardoReges',
 ].filter((u): u is string => Boolean(u && u.trim()));
 
 // Monta a URL de agendamento com os UTM exatos de cada página.

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .ink { fill:#0A1E33; }
+    .sub { fill:#6B8AAD; }
+    .eyebrow { fill:#6B8AAD; font-size:11px; letter-spacing:2.5px; font-weight:bold; }
+    .t { font-size:16px; font-weight:bold; }
+    .d { font-size:12.5px; }
+    .step { fill:#EAF1F7; stroke:#0A1E33; stroke-width:2; }
+  </style>
+
+  <text class="eyebrow" x="60" y="42">A ESCADA DO TRATAMENTO DA INCONTINÊNCIA PÓS-PRÓSTATA</text>
+
+  <!-- degraus -->
+  <rect class="step" x="80"  y="280" width="230" height="60" rx="8"/>
+  <rect class="step" x="330" y="210" width="230" height="130" rx="8"/>
+  <rect class="step" x="580" y="140" width="230" height="200" rx="8"/>
+
+  <!-- linha dourada ascendente (o caminho) -->
+  <path d="M100,262 L350,192 L600,122" stroke="#B8862B" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 8"/>
+  <circle cx="100" cy="262" r="6" fill="#B8862B"/>
+  <circle cx="350" cy="192" r="6" fill="#B8862B"/>
+  <circle cx="600" cy="122" r="6" fill="#B8862B"/>
+
+  <!-- degrau 1 -->
+  <text class="ink t" x="195" y="308" text-anchor="middle">Fisioterapia</text>
+  <text class="sub d" x="195" y="326" text-anchor="middle">assoalho pélvico — 1º passo em quase todos os casos</text>
+
+  <!-- degrau 2 -->
+  <text class="ink t" x="445" y="240" text-anchor="middle">Sling masculino</text>
+  <text class="sub d" x="445" y="258" text-anchor="middle">perdas leves a moderadas</text>
+  <text class="sub d" x="445" y="275" text-anchor="middle">persistentes</text>
+
+  <!-- degrau 3 -->
+  <text class="ink t" x="695" y="172" text-anchor="middle">Esfíncter artificial</text>
+  <text class="sub d" x="695" y="190" text-anchor="middle">padrão-ouro para perdas</text>
+  <text class="sub d" x="695" y="207" text-anchor="middle">moderadas a graves</text>
+
+  <!-- régua de base -->
+  <line x1="80" y1="358" x2="810" y2="358" stroke="#DCE7F2" stroke-width="2"/>
+  <text class="sub d" x="80" y="380">grau da perda →</text>
+  <text class="sub d" x="810" y="380" text-anchor="end">Sobe-se um degrau apenas quando o anterior não basta — nem mais, nem menos do que o caso pede.</text>
+</svg>

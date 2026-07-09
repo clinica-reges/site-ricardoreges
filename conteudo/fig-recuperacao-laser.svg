@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .ink { fill:#0A1E33; }
+    .sub { fill:#6B8AAD; }
+    .eyebrow { fill:#6B8AAD; font-size:11px; letter-spacing:2.5px; font-weight:bold; }
+    .t { font-size:15px; font-weight:bold; }
+    .d { font-size:12.5px; }
+  </style>
+
+  <text class="eyebrow" x="60" y="42">RECUPERAÇÃO TÍPICA — CIRURGIA A LASER DA PRÓSTATA</text>
+
+  <!-- trilho -->
+  <line x1="80" y1="150" x2="820" y2="150" stroke="#DCE7F2" stroke-width="6" stroke-linecap="round"/>
+  <!-- progresso dourado até o 2º marco (alta) -->
+  <line x1="80" y1="150" x2="300" y2="150" stroke="#B8862B" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- marcos -->
+  <g>
+    <circle cx="80"  cy="150" r="11" fill="#B8862B"/>
+    <circle cx="300" cy="150" r="11" fill="#FFFFFF" stroke="#B8862B" stroke-width="3"/>
+    <circle cx="540" cy="150" r="11" fill="#FFFFFF" stroke="#6B8AAD" stroke-width="3"/>
+    <circle cx="790" cy="150" r="11" fill="#FFFFFF" stroke="#6B8AAD" stroke-width="3"/>
+  </g>
+
+  <!-- rótulos superiores -->
+  <text class="ink t" x="80"  y="112" text-anchor="middle">Dia 0</text>
+  <text class="ink t" x="300" y="112" text-anchor="middle">24–48 h</text>
+  <text class="ink t" x="540" y="112" text-anchor="middle">1ª semana</text>
+  <text class="ink t" x="790" y="112" text-anchor="middle">2–4 semanas</text>
+
+  <!-- descrições inferiores -->
+  <text class="sub d" x="80" y="188" text-anchor="middle">Cirurgia sem cortes,</text>
+  <text class="sub d" x="80" y="205" text-anchor="middle">pela via natural</text>
+
+  <text class="sub d" x="300" y="188" text-anchor="middle">Alta hospitalar;</text>
+  <text class="sub d" x="300" y="205" text-anchor="middle">retirada precoce da sonda</text>
+
+  <text class="sub d" x="540" y="188" text-anchor="middle">Atividades leves;</text>
+  <text class="sub d" x="540" y="205" text-anchor="middle">ardência transitória esperada</text>
+
+  <text class="sub d" x="790" y="188" text-anchor="middle">Retorno gradual ao esforço</text>
+  <text class="sub d" x="790" y="205" text-anchor="middle">e à atividade sexual</text>
+
+  <text class="sub" x="450" y="262" text-anchor="middle" font-size="12" opacity="0.85">Cada caso tem seu ritmo — o roteiro acima é o padrão típico, ajustado na sua avaliação.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <style>
+      .ink { stroke:#0A1E33; fill:none; stroke-width:2; }
+      .ink-thin { stroke:#6B8AAD; fill:none; stroke-width:1.2; }
+      .mist { fill:#EAF1F7; }
+      .lbl { fill:#0A1E33; font-size:15px; }
+      .lbl-s { fill:#6B8AAD; font-size:12.5px; }
+      .eyebrow { fill:#6B8AAD; font-size:11px; letter-spacing:2.5px; font-weight:bold; }
+      .gold { stroke:#B8862B; fill:none; stroke-width:2.5; }
+    </style>
+  </defs>
+
+  <!-- ============ PAINEL ESQUERDO: ANTES ============ -->
+  <g transform="translate(60,40)">
+    <text class="eyebrow" x="150" y="0" text-anchor="middle">ANTES</text>
+    <text class="lbl" x="150" y="22" text-anchor="middle" font-weight="bold">Próstata com HPB</text>
+
+    <!-- cápsula (casca da laranja) -->
+    <ellipse class="mist" cx="150" cy="190" rx="130" ry="118"/>
+    <ellipse class="ink" cx="150" cy="190" rx="130" ry="118" stroke-width="3"/>
+    <!-- textura de casca: traços curtos radiais -->
+    <g class="ink-thin" opacity="0.55">
+      <path d="M150,64 l0,10"/><path d="M226,90 l-6,8"/><path d="M268,150 l-9,4"/>
+      <path d="M272,230 l-9,-3"/><path d="M226,290 l-6,-8"/><path d="M150,316 l0,-10"/>
+      <path d="M74,290 l6,-8"/><path d="M28,230 l9,-3"/><path d="M32,150 l9,4"/><path d="M74,90 l6,8"/>
+    </g>
+    <!-- miolo (adenoma) crescido, comprimindo o canal -->
+    <path class="ink-thin" fill="#DCE7F2" d="M150,92 c52,0 92,42 92,96 c0,56 -40,96 -92,96 c-52,0 -92,-40 -92,-96 c0,-54 40,-96 92,-96 z"/>
+    <!-- gomos do miolo -->
+    <g class="ink-thin" opacity="0.7">
+      <path d="M150,96 C 150,140 150,240 150,282" stroke-dasharray="0"/>
+      <path d="M78,142 C 110,168 190,212 220,238"/>
+      <path d="M222,142 C 190,168 110,212 80,238"/>
+    </g>
+    <!-- canal da urina espremido (linha ondulada fina) -->
+    <path class="ink" d="M150,72 c-4,20 5,34 -2,52 c-6,16 5,28 -1,46 c-5,16 4,30 -1,48 c-4,16 3,28 -1,44 c-3,14 3,22 0,44" stroke-width="2.4"/>
+    <text class="lbl-s" x="150" y="352" text-anchor="middle">O miolo cresce e aperta o canal da urina</text>
+  </g>
+
+  <!-- seta central -->
+  <g transform="translate(430,225)">
+    <path class="gold" d="M0,0 h36" marker-end="url(#arrow)"/>
+    <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#B8862B"/></marker></defs>
+    <text class="lbl-s" x="18" y="-14" text-anchor="middle" fill="#B8862B" font-weight="bold">laser</text>
+  </g>
+
+  <!-- ============ PAINEL DIREITO: DEPOIS ============ -->
+  <g transform="translate(520,40)">
+    <text class="eyebrow" x="150" y="0" text-anchor="middle">DEPOIS DA ENUCLEAÇÃO</text>
+    <text class="lbl" x="150" y="22" text-anchor="middle" font-weight="bold">Cápsula preservada, canal livre</text>
+
+    <!-- cápsula intacta -->
+    <ellipse class="mist" cx="150" cy="190" rx="130" ry="118"/>
+    <ellipse class="ink" cx="150" cy="190" rx="130" ry="118" stroke-width="3"/>
+    <g class="ink-thin" opacity="0.55">
+      <path d="M150,64 l0,10"/><path d="M226,90 l-6,8"/><path d="M268,150 l-9,4"/>
+      <path d="M272,230 l-9,-3"/><path d="M226,290 l-6,-8"/><path d="M150,316 l0,-10"/>
+      <path d="M74,290 l6,-8"/><path d="M28,230 l9,-3"/><path d="M32,150 l9,4"/><path d="M74,90 l6,8"/>
+    </g>
+    <!-- espaço do miolo removido: contorno tracejado -->
+    <path class="ink-thin" stroke-dasharray="5 5" d="M150,92 c52,0 92,42 92,96 c0,56 -40,96 -92,96 c-52,0 -92,-40 -92,-96 c0,-54 40,-96 92,-96 z" opacity="0.6"/>
+    <!-- canal amplo e livre -->
+    <path fill="#FFFFFF" stroke="#0A1E33" stroke-width="2.4" d="M136,72 c-3,40 -2,150 0,234 l28,0 c2,-84 3,-194 0,-234 z"/>
+    <!-- linha dourada: trajeto do laser preservando a casca -->
+    <path class="gold" stroke-dasharray="1 6" stroke-linecap="round" d="M150,96 c50,2 88,44 88,92 c0,52 -38,92 -88,92 c-50,0 -88,-40 -88,-92 c0,-48 38,-90 88,-92"/>
+    <text class="lbl-s" x="150" y="352" text-anchor="middle">O laser remove o miolo por dentro — a "casca" fica</text>
+  </g>
+
+  <!-- legenda inferior -->
+  <text class="lbl-s" x="450" y="424" text-anchor="middle" opacity="0.85">Ilustração esquemática, sem escala anatômica · finalidade educativa</text>
+</svg>

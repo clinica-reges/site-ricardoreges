@@ -1,0 +1,68 @@
+// ─────────────────────────────────────────────────────────────
+// Configuração central do site — Dr. Ricardo Reges
+// Fonte única de verdade: telefone, agendamento, endereço, CRM/RQE.
+// Nada de valores sensíveis hardcoded fora daqui.
+// ─────────────────────────────────────────────────────────────
+
+export const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL || 'https://www.ricardoreges.com.br'
+).replace(/\/$/, '');
+
+export const BOOKING_BASE =
+  process.env.NEXT_PUBLIC_BOOKING_URL || 'https://agendar.docflow.com.br/ricardoreges';
+
+export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || '';
+
+// WhatsApp / telefone dos pacientes — (85) 99698-3366
+export const WHATSAPP_DISPLAY = '(85) 99698-3366';
+export const WHATSAPP_E164 = '5585996983366';
+export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_E164}`;
+
+// Identificação profissional
+export const DOCTOR = {
+  name: 'Dr. Ricardo Reges',
+  fullName: 'Ricardo Reges Maia de Oliveira',
+  crm: 'CRM-CE 10659',
+  rqe: 'RQE 3860',
+  specialty: 'Urologia',
+};
+
+// Endereço do consultório — Aldeota (padronizado 2026)
+export const ADDRESS = {
+  street: 'Rua Costa Barros, 833, 4º andar',
+  district: 'Aldeota',
+  city: 'Fortaleza',
+  state: 'CE',
+  region: 'CE',
+  postalCode: '60160-280',
+  country: 'BR',
+  hours: 'Segunda a sexta, 9h às 18h',
+};
+
+// Perfis oficiais para Physician.sameAs (JSON-LD). Vazios são omitidos.
+export const SAME_AS = [
+  process.env.NEXT_PUBLIC_LATTES_URL,
+  process.env.NEXT_PUBLIC_INSTAGRAM_URL,
+  process.env.NEXT_PUBLIC_LINKEDIN_URL,
+].filter((u): u is string => Boolean(u && u.trim()));
+
+// Monta a URL de agendamento com os UTM exatos de cada página.
+export function bookingUrl(campaign: string): string {
+  const sep = BOOKING_BASE.includes('?') ? '&' : '?';
+  return `${BOOKING_BASE}${sep}utm_source=site&utm_medium=cta&utm_campaign=${campaign}`;
+}
+
+// Flag para exibir os placeholders de vídeo (Shorts entram depois).
+export const SHOW_VIDEO_SLOTS =
+  process.env.NEXT_PUBLIC_SHOW_VIDEO_SLOTS === 'true';
+
+// Navegação principal (ordem no menu)
+export const NAV = [
+  { href: '/', label: 'Início' },
+  { href: '/cirurgia-laser-prostata/', label: 'Cirurgia a laser' },
+  { href: '/cirurgia-robotica/', label: 'Cirurgia robótica' },
+  { href: '/echolaser/', label: 'EchoLASER' },
+  { href: '/pos-prostatectomia/', label: 'Pós-prostatectomia' },
+  { href: '/avaliacao-urodinamica/', label: 'Avaliação' },
+  { href: '/sobre/', label: 'Sobre' },
+];

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Helvetica, Arial, sans-serif">
+  <style>
+    .ink { fill:#0A1E33; }
+    .sub { fill:#6B8AAD; }
+    .eyebrow { fill:#6B8AAD; font-size:11px; letter-spacing:2.5px; font-weight:bold; }
+    .h { font-size:17px; font-weight:bold; }
+    .row { font-size:13.5px; }
+    .cell { font-size:13px; }
+    .card { fill:#FFFFFF; stroke:#DCE7F2; stroke-width:1.5; }
+  </style>
+
+  <text class="eyebrow" x="60" y="40">QUAL TÉCNICA PARA QUAL CASO — VISÃO GERAL</text>
+
+  <!-- cartões-cabeçalho -->
+  <g>
+    <rect class="card" x="300" y="62" width="180" height="52" rx="10"/>
+    <rect class="card" x="500" y="62" width="180" height="52" rx="10"/>
+    <rect class="card" x="700" y="62" width="180" height="52" rx="10"/>
+    <text class="ink h" x="390" y="88" text-anchor="middle">Enucleação</text>
+    <text class="sub"  x="390" y="106" text-anchor="middle" font-size="12">HoLEP / ThuLEP</text>
+    <text class="ink h" x="590" y="88" text-anchor="middle">GreenLight</text>
+    <text class="sub"  x="590" y="106" text-anchor="middle" font-size="12">vaporização</text>
+    <text class="ink h" x="790" y="88" text-anchor="middle">Rezūm</text>
+    <text class="sub"  x="790" y="106" text-anchor="middle" font-size="12">vapor d'água</text>
+  </g>
+
+  <!-- linhas -->
+  <g class="ink row">
+    <text x="60" y="160">Próstatas volumosas</text>
+    <text x="60" y="220">Paciente anticoagulado</text>
+    <text x="60" y="280">Preservação da ejaculação</text>
+    <text x="60" y="340">Durabilidade / menor retratamento</text>
+    <text x="60" y="400">Ambulatorial / anestesia mínima</text>
+  </g>
+  <g stroke="#EAF1F7" stroke-width="1.5">
+    <line x1="60" y1="178" x2="880" y2="178"/><line x1="60" y1="238" x2="880" y2="238"/>
+    <line x1="60" y1="298" x2="880" y2="298"/><line x1="60" y1="358" x2="880" y2="358"/>
+  </g>
+
+  <!-- escala de pontos: cheio=forte, meio=parcial, vazio=limitado -->
+  <defs>
+    <g id="d3"><circle cx="0" cy="0" r="7" fill="#0A1E33"/><circle cx="22" cy="0" r="7" fill="#0A1E33"/><circle cx="44" cy="0" r="7" fill="#0A1E33"/></g>
+    <g id="d2"><circle cx="0" cy="0" r="7" fill="#0A1E33"/><circle cx="22" cy="0" r="7" fill="#0A1E33"/><circle cx="44" cy="0" r="7" fill="none" stroke="#9FB4CC" stroke-width="2"/></g>
+    <g id="d1"><circle cx="0" cy="0" r="7" fill="#0A1E33"/><circle cx="22" cy="0" r="7" fill="none" stroke="#9FB4CC" stroke-width="2"/><circle cx="44" cy="0" r="7" fill="none" stroke="#9FB4CC" stroke-width="2"/></g>
+    <g id="g3"><circle cx="0" cy="0" r="7" fill="#B8862B"/><circle cx="22" cy="0" r="7" fill="#B8862B"/><circle cx="44" cy="0" r="7" fill="#B8862B"/></g>
+  </defs>
+
+  <!-- Volumosas: HoLEP forte (assinatura ouro), GL parcial, Rezum limitado -->
+  <use href="#g3" x="368" y="155"/><use href="#d2" x="568" y="155"/><use href="#d1" x="768" y="155"/>
+  <!-- Anticoagulado: HoLEP forte, GL forte(ouro: marca da técnica), Rezum parcial -->
+  <use href="#d3" x="368" y="215"/><use href="#g3" x="568" y="215"/><use href="#d2" x="768" y="215"/>
+  <!-- Ejaculação: HoLEP limitado, GL limitado, Rezum forte (ouro) -->
+  <use href="#d1" x="368" y="275"/><use href="#d1" x="568" y="275"/><use href="#g3" x="768" y="275"/>
+  <!-- Durabilidade: HoLEP forte, GL parcial, Rezum parcial -->
+  <use href="#d3" x="368" y="335"/><use href="#d2" x="568" y="335"/><use href="#d2" x="768" y="335"/>
+  <!-- Ambulatorial: HoLEP limitado, GL parcial, Rezum forte -->
+  <use href="#d1" x="368" y="395"/><use href="#d2" x="568" y="395"/><use href="#d3" x="768" y="395"/>
+
+  <!-- legenda -->
+  <g transform="translate(60,436)">
+    <circle cx="0" cy="-4" r="6" fill="#0A1E33"/><text class="sub cell" x="12" y="0">ponto forte</text>
+    <circle cx="120" cy="-4" r="6" fill="none" stroke="#9FB4CC" stroke-width="2"/><text class="sub cell" x="132" y="0">menos indicado</text>
+    <circle cx="285" cy="-4" r="6" fill="#B8862B"/><text class="sub cell" x="297" y="0">destaque da técnica</text>
+    <text class="sub cell" x="820" y="0" text-anchor="end">A indicação final é individual — definida na avaliação.</text>
+  </g>
+</svg>

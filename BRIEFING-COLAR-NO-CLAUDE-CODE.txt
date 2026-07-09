@@ -1,0 +1,71 @@
+BRIEFING DEFINITIVO — CONSTRUÇÃO DO SITE DR. RICARDO REGES
+(versão consolidada 2026-07-09 — substitui qualquer versão anterior)
+Colar este arquivo INTEIRO no Claude Code, aberto na pasta do projeto.
+
+═══════════════════════════════════════════════════════════════════
+CONSTRUÇÃO — SITE DR. RICARDO REGES (repo NOVO, separado do DocFlow)
+Decisões fechadas no Claude Chat. Não re-decidir stack, design ou copy.
+
+INSUMOS (já presentes na pasta ./conteudo e ./fotos deste projeto):
+- 5 arquivos .md em ./conteudo: p1-cirurgia-laser-prostata,
+  p2-robotica-uro-oncologia, p3-echolaser-tpla-hpb,
+  p4-continencia-funcao-sexual, moldura-home-sobre-avaliacao-agendar
+  (este último contém 4 páginas: Home, Sobre, Avaliação, Agendar).
+  O texto dos .md é FINAL, auditado clinicamente e conforme CFM —
+  transcrever fielmente. NÃO reescrever, NÃO resumir, NÃO "melhorar",
+  NÃO acrescentar frases. Blocos "[NOTA...]" e "Notas técnicas" dos
+  .md são instruções internas — não publicar.
+- 4 figuras SVG em ./conteudo: fig-prostata-laranja,
+  fig-tecnicas-comparativo, fig-recuperacao-laser,
+  fig-escada-continencia. Inserir nas páginas correspondentes
+  (P1: laranja + comparativo + recuperação; P4: escada).
+- Fotos do médico em ./fotos (avaliar, otimizar, usar na Home/Sobre).
+
+STACK: Next.js (App Router) com output estático (`output: 'export'`),
+deploy Vercel, projeto próprio. Sem CMS, sem banco, sem auth.
+
+DESIGN TOKENS (derivados das figuras — seguir exatamente):
+- Cores: tinta #0A1E33 · aço #6B8AAD · névoa #EAF1F7 · fundo #FFFFFF
+  · dourado-laser #B8862B (acento raro: CTAs primários, detalhes).
+- Tipografia: display serif elegante para títulos (Source Serif 4 ou
+  Lora, via next/font) + sans humanista para corpo (Inter).
+- Estilo: sóbrio, espaçoso, linha fina — o site de um professor,
+  não de uma clínica de estética. Sem gradientes, sem stock photos.
+- Mobile-first: público 55–75 usa celular com fonte grande;
+  corpo mínimo 17px, contraste AA, alvos de toque generosos.
+
+PÁGINAS (8): / (home) · /cirurgia-laser-prostata · /cirurgia-robotica
+· /echolaser · /pos-prostatectomia · /avaliacao-urodinamica · /sobre
+· /agendar. Slugs definitivos (SEO) — não alterar.
+
+REQUISITOS TRANSVERSAIS:
+1. Schema.org por página conforme "Notas técnicas" de cada .md
+   (Physician na home/sobre; MedicalProcedure nas P1–P4;
+   MedicalTest na avaliação; FAQPage em toda FAQ). JSON-LD.
+2. Todos os CTAs "Agendar" → URL do booking DocFlow com os UTM
+   exatos especificados em cada .md (utm_campaign por página).
+3. Rodapé global: CRM-CE 10659 · RQE 3860 + endereço (Rua Costa
+   Barros, 833, 4º andar — Aldeota, Fortaleza/CE) + linha de
+   conformidade CFM (texto no .md da moldura).
+4. Telefone/WhatsApp de pacientes em todo o site: (85) 99698-3366
+   (links wa.me com este número).
+5. Seção "Referências" das P1–P4: recolhível (details/summary).
+6. Blocos "[slot de vídeo]" dos .md: placeholder discreto oculto por
+   flag (vídeos entram depois) — sem buraco visual.
+7. sitemap.xml + robots.txt + metatags/OG por página conforme
+   "Notas técnicas" dos .md.
+8. ANALYTICS: GA4 id G-4DB4Z1Y232 via variável de ambiente
+   NEXT_PUBLIC_GA_ID (nunca hardcoded). Carregar gtag apenas em
+   produção (não em dev/preview), com anonymize_ip ativo. Nenhum
+   outro script de terceiros. Search Console já verificado por DNS —
+   nenhuma tag de verificação necessária no site.
+9. Lighthouse ≥95 em performance e acessibilidade no mobile.
+
+FORA DE ESCOPO (não implementar, não sugerir): blog, CMS, área
+logada, formulários de contato, chat, multi-idioma, multi-tenant,
+qualquer alteração no texto do conteúdo fornecido.
+
+ENTREGA: repo git inicializado + projeto Vercel + URL de preview
+para revisão visual no Claude Chat (screenshots por página) ANTES
+de qualquer configuração de domínio/DNS.
+═══════════════════════════════════════════════════════════════════

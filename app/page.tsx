@@ -61,7 +61,7 @@ export default function HomePage() {
               src="/fotos/hero-ricardo.jpg"
               alt="Dr. Ricardo Reges, urologista em Fortaleza"
               width={1067}
-              height={1600}
+              height={1333}
               fetchPriority="high"
               decoding="async"
             />

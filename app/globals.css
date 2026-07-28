@@ -417,7 +417,7 @@ main { display: block; }
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: center 18%;
+  object-position: center top;
 }
 /* Fotografias de corpo (retratos), sem moldura — só cantos e sombra suave. */
 .photo {

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import { AgendarButton } from '@/components/Cta';
 import JsonLd from '@/components/JsonLd';
 import { physicianSchema } from '@/lib/schema';
@@ -126,7 +125,7 @@ export default function SobrePage() {
 
       <div className="section">
         <div className="wrap">
-          <div className="hero__grid" style={{ alignItems: 'start' }}>
+          <div className="sobre-intro">
             <div className="prose" style={{ maxWidth: 'none' }}>
               <p>
                 Ricardo Reges Maia de Oliveira é urologista, professor de
@@ -155,14 +154,21 @@ export default function SobrePage() {
                 de Sexualidade da Sociedade Brasileira de Urologia por quase uma
                 década.
               </p>
-            </div>
-            <Image
-              className="hero__photo"
-              src="/fotos/dr-ricardo-reges-retrato.jpg"
-              alt="Prof. Dr. Ricardo Reges"
+          </div>
+
+          <picture>
+            <source type="image/webp" srcSet="/fotos/sobre-ricardo.webp" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className="photo sobre-photo"
+              src="/fotos/sobre-ricardo.jpg"
+              alt="Dr. Ricardo Reges em seu consultório em Fortaleza"
               width={900}
-              height={1257}
+              height={1645}
+              loading="lazy"
+              decoding="async"
             />
+          </picture>
           </div>
 
           <div className="narrow" style={{ marginTop: '3rem' }}>

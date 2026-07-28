@@ -413,11 +413,23 @@ main { display: block; }
 .hero__photo {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  background: var(--nevoa);
   width: 100%;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center 18%;
 }
+/* Fotografias de corpo (retratos), sem moldura — só cantos e sombra suave. */
+.photo {
+  display: block;
+  width: 100%;
+  max-width: 22rem;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.photo--sm { max-width: 15rem; }
 @media (min-width: 54rem) {
   .hero__photo { max-width: 26rem; margin-left: auto; }
 }

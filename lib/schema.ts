@@ -26,7 +26,7 @@ export function physicianSchema() {
     name: 'Prof. Dr. Ricardo Reges',
     alternateName: DOCTOR.fullName,
     url: `${SITE_URL}/`,
-    image: `${SITE_URL}/fotos/dr-ricardo-reges.jpg`,
+    image: `${SITE_URL}/fotos/og-home.jpg`,
     medicalSpecialty: 'Urologic',
     description:
       'Urologista em Fortaleza. Professor de Urologia da UFC, doutor pela UNICAMP. Cirurgia da próstata a Laser (HoLEP, GreenLight), robótica, EchoLASER e tratamento de incontinência e disfunção erétil pós-prostatectomia.',
@@ -65,7 +65,7 @@ export function clinicSchema() {
     '@type': 'MedicalClinic',
     name: 'Consultório Dr. Ricardo Reges — Urologia',
     url: `${SITE_URL}/agendar/`,
-    image: `${SITE_URL}/fotos/dr-ricardo-reges.jpg`,
+    image: `${SITE_URL}/fotos/og-home.jpg`,
     telephone: '+55-85-99698-3366',
     address: postalAddress(),
     medicalSpecialty: 'Urologic',

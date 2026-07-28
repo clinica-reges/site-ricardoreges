@@ -164,6 +164,19 @@ export default function LaserProstataPage() {
             próstatas menores em pacientes que priorizam a preservação da
             ejaculação e um retorno quase imediato à rotina.
           </p>
+          <picture>
+            <source type="image/webp" srcSet="/fotos/rezum-dispositivo.webp" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className="photo photo--sm"
+              src="/fotos/rezum-dispositivo.jpg"
+              alt="Dr. Ricardo Reges com o dispositivo Rezūm em ambiente cirúrgico"
+              width={449}
+              height={800}
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
 
           {/* S3 */}
           <h2>Qual técnica para qual caso</h2>
@@ -326,6 +339,19 @@ export default function LaserProstataPage() {
             width={900}
             height={300}
           />
+          <picture>
+            <source type="image/webp" srcSet="/fotos/laser-cirurgia-oculos.webp" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className="photo"
+              src="/fotos/laser-cirurgia-oculos.jpg"
+              alt="Dr. Ricardo Reges com óculos de proteção durante cirurgia a Laser"
+              width={800}
+              height={1200}
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
 
           {/* S6 */}
           <h2>Por que o Dr. Ricardo Reges</h2>

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import { AgendarButton, CtaBlock } from '@/components/Cta';
 import JsonLd from '@/components/JsonLd';
@@ -17,7 +16,7 @@ export const metadata: Metadata = {
     description:
       'Cirurgia da próstata a Laser e robótica, EchoLASER e reabilitação pós-prostatectomia. Professor da UFC, doutor pela UNICAMP.',
     url: '/',
-    images: ['/fotos/dr-ricardo-reges.jpg'],
+    images: ['/fotos/og-home.jpg'],
   },
 };
 
@@ -50,14 +49,23 @@ export default function HomePage() {
               <AgendarButton campaign="home" size="lg" />
             </div>
           </div>
-          <Image
-            className="hero__photo"
-            src="/fotos/dr-ricardo-reges.jpg"
-            alt="Dr. Ricardo Reges, urologista em Fortaleza"
-            width={1000}
-            height={1515}
-            priority
-          />
+          <picture>
+            <source
+              type="image/webp"
+              srcSet="/fotos/hero-ricardo-mobile.webp 534w, /fotos/hero-ricardo.webp 1067w"
+              sizes="(min-width: 54rem) 26rem, 100vw"
+            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className="hero__photo"
+              src="/fotos/hero-ricardo.jpg"
+              alt="Dr. Ricardo Reges, urologista em Fortaleza"
+              width={1067}
+              height={1600}
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
         </div>
       </section>
 

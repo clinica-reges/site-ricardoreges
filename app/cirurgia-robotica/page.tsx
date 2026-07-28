@@ -295,6 +295,19 @@ export default function RoboticaPage() {
               completa.
             </li>
           </ul>
+          <picture>
+            <source type="image/webp" srcSet="/fotos/robotica-console-davinci.webp" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className="photo"
+              src="/fotos/robotica-console-davinci.jpg"
+              alt="Dr. Ricardo Reges ao console do robô Da Vinci, Hospital São Camilo"
+              width={675}
+              height={1200}
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
 
           {/* S7 — FAQ */}
           <h2>Perguntas frequentes</h2>

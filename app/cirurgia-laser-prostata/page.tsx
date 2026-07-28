@@ -99,7 +99,7 @@ export default function LaserProstataPage() {
       <div className="section">
         <div className="wrap prose">
           {/* S1 */}
-          <h2>O problema, na língua do paciente</h2>
+          <h2>O problema, em palavras simples</h2>
           <p>
             Levantar três, quatro vezes por noite para urinar. Jato fraco, que
             demora a começar. A sensação de que a bexiga nunca esvazia por

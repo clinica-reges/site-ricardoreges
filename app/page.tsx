@@ -65,7 +65,7 @@ export default function HomePage() {
       <section className="section section--mist">
         <div className="wrap">
           <p className="eyebrow">O que trato</p>
-          <h2>As portas de entrada, na língua do paciente</h2>
+          <h2>Encontre o seu caso abaixo — e o caminho para resolvê-lo.</h2>
           <div className="grid grid--2" style={{ marginTop: '1.75rem' }}>
             <div className="card door">
               <h3>Próstata aumentada (HPB)</h3>
@@ -137,7 +137,7 @@ export default function HomePage() {
       <section className="section">
         <div className="wrap narrow">
           <p className="eyebrow">Por que aqui</p>
-          <h2>A régua de autoridade — cinco fatos</h2>
+          <h2>Cinco fatos que pesam na sua decisão</h2>
           <ul className="facts" style={{ marginTop: '1.75rem' }}>
             <li>
               <strong>Medalha Alberto Gentile</strong> — concedida pela AMB/SBU

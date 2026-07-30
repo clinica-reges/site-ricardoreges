@@ -339,19 +339,6 @@ export default function LaserProstataPage() {
             width={900}
             height={300}
           />
-          <picture>
-            <source type="image/webp" srcSet="/fotos/laser-cirurgia-oculos.webp" />
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              className="photo"
-              src="/fotos/laser-cirurgia-oculos.jpg"
-              alt="Dr. Ricardo Reges com óculos de proteção durante cirurgia a Laser"
-              width={800}
-              height={1200}
-              loading="lazy"
-              decoding="async"
-            />
-          </picture>
 
           {/* S6 */}
           <h2>Por que o Dr. Ricardo Reges</h2>
@@ -389,6 +376,19 @@ export default function LaserProstataPage() {
               Urologia.
             </li>
           </ul>
+          <picture>
+            <source type="image/webp" srcSet="/fotos/laser-moses-lumenis.webp" />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className="photo"
+              src="/fotos/laser-moses-lumenis.jpg"
+              alt="Dr. Ricardo Reges com o sistema a laser Lumenis Pulse 120H MOSES para cirurgia urológica"
+              width={800}
+              height={1067}
+              loading="lazy"
+              decoding="async"
+            />
+          </picture>
           <VideoSlot label="Minha trajetória com o Laser de próstata" />
 
           {/* S7 — FAQ */}

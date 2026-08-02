@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Analytics from '@/components/Analytics';
+import WhatsappFab from '@/components/WhatsappFab';
 import { SITE_URL } from '@/lib/site';
 
 const lora = Lora({
@@ -44,6 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="conteudo">{children}</main>
         <Footer />
+        <WhatsappFab />
         <Analytics />
       </body>
     </html>

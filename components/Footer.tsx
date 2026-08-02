@@ -1,5 +1,13 @@
 import Link from 'next/link';
-import { NAV, DOCTOR, ADDRESS, WHATSAPP_DISPLAY, WHATSAPP_URL } from '@/lib/site';
+import {
+  NAV,
+  DOCTOR,
+  ADDRESS,
+  WHATSAPP_DISPLAY,
+  WHATSAPP_URL,
+  PHONE_DISPLAY,
+  PHONE_TEL,
+} from '@/lib/site';
 
 export default function Footer() {
   return (
@@ -17,6 +25,12 @@ export default function Footer() {
         <div>
           <h4>Contato</h4>
           <ul>
+            <li>
+              Telefone:{' '}
+              <a className="site-footer__tel" href={PHONE_TEL}>
+                {PHONE_DISPLAY}
+              </a>
+            </li>
             <li>
               WhatsApp:{' '}
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">

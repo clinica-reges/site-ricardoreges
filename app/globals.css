@@ -517,3 +517,86 @@ main { display: block; }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; }
 }
+
+/* ── Telefone clicável no cabeçalho ──────────────────────── */
+/* Número como texto, não só ícone: o público é 60+ e precisa enxergar. */
+.site-header__tel {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: auto;
+  padding: 0.45rem 0.6rem;
+  border-radius: 8px;
+  min-height: 44px;
+  text-decoration: none;
+  color: var(--tinta);
+  font-weight: 600;
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.site-header__tel svg { width: 17px; height: 17px; fill: var(--ouro); flex: none; }
+.site-header__tel:hover, .site-header__tel:focus-visible { background: var(--nevoa); }
+
+/* O número não encolhe nem quebra — quem cede é o espaçamento em volta. */
+.site-header__tel, .nav-toggle { flex: none; }
+.brand__name { white-space: nowrap; }
+
+/* No desktop o telefone sai do cabeçalho: ninguém liga clicando no
+   computador, e o menu inteiro mais o número não cabem nos 68rem sem espremer
+   o nome do médico ou empurrar o menu para o sanfonado em tela de notebook.
+   Ver o número continua garantido na dobra principal e no rodapé. No celular,
+   onde o toque-para-ligar serve de fato, ele fica. */
+@media (min-width: 68rem) {
+  .site-header__tel { display: none; }
+}
+
+/* No celular, marca + número + menu não cabem na mesma linha sem espremer o
+   número (ou o nome do médico). Então o número desce para a própria linha,
+   logo abaixo da marca, em tamanho cheio. A altura do cabeçalho não muda:
+   ele ocupa o lugar do descritor, que a dobra principal já repete. */
+@media (max-width: 47.99rem) {
+  .site-header__inner {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      'marca menu'
+      'tel   menu';
+    align-items: center;
+    column-gap: 0.6rem;
+    row-gap: 0;
+  }
+  .brand { grid-area: marca; }
+  .site-header__tel { grid-area: tel; margin-left: 0; justify-self: start; padding-inline: 0; }
+  .nav-toggle { grid-area: menu; }
+  .brand__role { display: none; }
+}
+
+.site-footer__tel { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+/* ── Botão flutuante de WhatsApp ─────────────────────────── */
+/* Discreto e na paleta do site: o glifo carrega o reconhecimento, sem o
+   verde de e-commerce. Fica sob o cabeçalho fixo (z-index 50). */
+.wa-fab {
+  position: fixed;
+  z-index: 40;
+  right: max(0.9rem, env(safe-area-inset-right, 0px));
+  bottom: calc(0.9rem + env(safe-area-inset-bottom, 0px));
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--tinta);
+  color: var(--branco);
+  box-shadow: 0 2px 6px rgba(10, 30, 51, 0.18), 0 10px 24px rgba(10, 30, 51, 0.16);
+  transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+.wa-fab svg { width: 23px; height: 23px; fill: currentColor; display: block; }
+.wa-fab:hover, .wa-fab:focus-visible { background: var(--ouro-escuro); }
+.wa-fab[data-oculto='true'] { opacity: 0; transform: translateY(8px); pointer-events: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .wa-fab { transition: none; }
+}

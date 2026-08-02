@@ -13,10 +13,19 @@ export const BOOKING_BASE =
 
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || '';
 
+// Liga o gtag fora de produção e ativa o debug_mode, para conferir os eventos
+// no DebugView do GA4 antes de publicar. Nunca deve ficar 'true' em produção.
+export const GA_DEBUG = process.env.NEXT_PUBLIC_GA_DEBUG === 'true';
+
 // WhatsApp / telefone dos pacientes — (85) 99698-3366
 export const WHATSAPP_DISPLAY = '(85) 99698-3366';
 export const WHATSAPP_E164 = '5585996983366';
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_E164}`;
+
+// Telefone clicável. Hoje é o mesmo número do WhatsApp, mas fica separado
+// para poder divergir sem mexer em cada componente.
+export const PHONE_DISPLAY = WHATSAPP_DISPLAY;
+export const PHONE_TEL = `tel:+${WHATSAPP_E164}`;
 
 // Identificação profissional
 export const DOCTOR = {

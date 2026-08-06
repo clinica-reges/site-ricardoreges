@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/nossos-servicos", "destination": "/", "statusCode": 301 },
+    { "source": "/nossos-servicos/", "destination": "/", "statusCode": 301 },
+
+    { "source": "/agende-seu-atendimento", "destination": "/agendar/", "statusCode": 301 },
+    { "source": "/agende-seu-atendimento/", "destination": "/agendar/", "statusCode": 301 },
+
+    { "source": "/about", "destination": "/sobre/", "statusCode": 301 },
+    { "source": "/about/", "destination": "/sobre/", "statusCode": 301 },
+
+    { "source": "/contact", "destination": "/agendar/", "statusCode": 301 },
+    { "source": "/contact/", "destination": "/agendar/", "statusCode": 301 },
+
+    { "source": "/book-online", "destination": "/agendar/", "statusCode": 301 },
+    { "source": "/book-online/", "destination": "/agendar/", "statusCode": 301 },
+
+    { "source": "/service-page/:slug*", "destination": "/agendar/", "statusCode": 301 }
+  ]
+}

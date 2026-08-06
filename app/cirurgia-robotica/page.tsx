@@ -37,18 +37,11 @@ const FAQ_URO = [
   },
 ];
 
-const FAQ = [
+// FAQ da prostatectomia — fecha o capítulo da próstata, logo após a recuperação.
+const FAQ_PROSTATA = [
   {
     q: 'Robótica é melhor que cirurgia aberta?',
     a: 'Em resultados oncológicos, as técnicas bem executadas são equivalentes. As vantagens consistentes da robótica são perioperatórias — menos sangramento, menos dor, internação e recuperação mais curtas — e a precisão que ela dá ao cirurgião nos passos delicados. A experiência do cirurgião pesa mais que a plataforma.',
-  },
-  {
-    q: 'Quanto tempo entre a decisão e a cirurgia?',
-    a: 'Há tempo para decidir bem — e a ciência atualizou essa resposta. A recomendação clássica de aguardar 6 a 8 semanas após a biópsia não é mais obrigatória na era robótica: uma meta-análise com mais de 8.500 pacientes mostrou que o intervalo biópsia–cirurgia não impactou nenhum desfecho da prostatectomia robótica, sendo segura mesmo em 2 a 6 semanas. No outro extremo, também não convém procrastinar: em tumores de alto risco, adiar a cirurgia por mais de 6 meses associou-se a pior controle da doença. O equilíbrio: semanas para exames completos e segunda opinião são bem-vindas; meses de adiamento, especialmente no alto risco, não.',
-  },
-  {
-    q: 'O robô pode falhar durante a cirurgia?',
-    a: 'Falhas são raríssimas e os protocolos preveem a conversão segura da cirurgia. O cirurgião está no comando o tempo todo.',
   },
   {
     q: 'E se a biópsia da peça mostrar algo diferente?',
@@ -62,10 +55,38 @@ const FAQ = [
     q: 'A ejaculação continua depois da cirurgia?',
     a: 'Não — a prostatectomia radical remove as estruturas que produzem o sêmen; o orgasmo é preservado, mas sem ejaculação. É diferente da cirurgia de HPB e importa para quem deseja filhos: a preservação de fertilidade (banco de sêmen) deve ser conversada antes.',
   },
+];
+
+// Perguntas que valem para qualquer cirurgia e para o atendimento — ficam
+// imediatamente antes da chamada para agendar, que é onde elas surgem.
+const FAQ_GERAL = [
+  {
+    q: 'Quanto tempo entre a decisão e a cirurgia?',
+    a: 'Há tempo para decidir bem — e a ciência atualizou essa resposta. A recomendação clássica de aguardar 6 a 8 semanas após a biópsia não é mais obrigatória na era robótica: uma meta-análise com mais de 8.500 pacientes mostrou que o intervalo biópsia–cirurgia não impactou nenhum desfecho da prostatectomia robótica, sendo segura mesmo em 2 a 6 semanas. No outro extremo, também não convém procrastinar: em tumores de alto risco, adiar a cirurgia por mais de 6 meses associou-se a pior controle da doença. O equilíbrio: semanas para exames completos e segunda opinião são bem-vindas; meses de adiamento, especialmente no alto risco, não.',
+  },
+  {
+    q: 'O robô pode falhar durante a cirurgia?',
+    a: 'Falhas são raríssimas e os protocolos preveem a conversão segura da cirurgia. O cirurgião está no comando o tempo todo.',
+  },
   {
     q: 'Convênio cobre? Como funciona o particular?',
     a: 'Os honorários médicos desta equipe são em regime particular, apresentados por escrito na avaliação, antes de qualquer decisão. Em muitos casos, as despesas hospitalares podem correr pelo seu plano de saúde, conforme o seu contrato e a rede credenciada — orientamos esse caminho na consulta. E se a sua preferência for realizar a cirurgia integralmente pelo plano, indicamos com tranquilidade colegas de referência credenciados: a escolha certa é a que atende você, e ela é sua.',
   },
+];
+
+// Índice do topo — a página serve dois públicos (próstata e demais tumores)
+// e ficou longa. Links de fragmento comuns: sem JS e sem evento de GA4.
+const SUMARIO = [
+  { href: '#diagnostico', label: 'O diagnóstico e a decisão' },
+  { href: '#o-que-e', label: 'O que é a cirurgia robótica' },
+  { href: '#indicacoes', label: 'Para quem é indicada' },
+  { href: '#recuperacao', label: 'Como é a recuperação' },
+  { href: '#faq-prostatectomia', label: 'Perguntas frequentes' },
+  {
+    href: '#alem-da-prostata',
+    label: 'Cirurgia robótica de rim, adrenal, bexiga e testículo',
+  },
+  { href: '#primeiro-passo', label: 'Agendar avaliação' },
 ];
 
 export default function RoboticaPage() {
@@ -86,7 +107,8 @@ export default function RoboticaPage() {
               'Linfadenectomia retroperitoneal robótica',
             ],
           }),
-          faqSchema([...FAQ_URO, ...FAQ]),
+          // Um único FAQPage cobrindo os três conjuntos de perguntas da página.
+          faqSchema([...FAQ_PROSTATA, ...FAQ_URO, ...FAQ_GERAL]),
         ]}
       />
 
@@ -111,8 +133,20 @@ export default function RoboticaPage() {
 
       <div className="section">
         <div className="wrap prose">
+          {/* Índice */}
+          <nav className="page-toc" aria-label="Nesta página">
+            <p className="page-toc__label">Nesta página</p>
+            <ul>
+              {SUMARIO.map((item) => (
+                <li key={item.href}>
+                  <a href={item.href}>{item.label}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
           {/* S1 */}
-          <h2>O diagnóstico e a decisão</h2>
+          <h2 id="diagnostico">O diagnóstico e a decisão</h2>
           <p>
             Receber o diagnóstico de câncer de próstata muda o chão. E quase
             imediatamente vem a segunda onda: as decisões. Operar ou não?
@@ -140,7 +174,7 @@ export default function RoboticaPage() {
           <VideoSlot label="Diagnóstico de câncer de próstata: as 3 primeiras perguntas" />
 
           {/* S2 */}
-          <h2>O que é a cirurgia robótica</h2>
+          <h2 id="o-que-e">O que é a cirurgia robótica</h2>
           <p>
             Primeiro, o que ela não é: o robô não opera ninguém. A prostatectomia
             radical robô-assistida é realizada pelo cirurgião, que comanda cada
@@ -162,7 +196,7 @@ export default function RoboticaPage() {
           </p>
 
           {/* S3 */}
-          <h2>Para quem a cirurgia é indicada</h2>
+          <h2 id="indicacoes">Para quem a cirurgia é indicada</h2>
           <p>
             A indicação nasce do cruzamento de três coisas: o tumor (PSA,
             biópsia/Gleason, exames de imagem), o paciente (idade, saúde geral,
@@ -209,7 +243,7 @@ export default function RoboticaPage() {
           </div>
 
           {/* S4 */}
-          <h2>As duas perguntas que todo homem quer fazer</h2>
+          <h2 id="duas-perguntas">As duas perguntas que todo homem quer fazer</h2>
           <div className="callout">
             <h3>&ldquo;Vou ficar incontinente?&rdquo;</h3>
             <p>
@@ -257,7 +291,7 @@ export default function RoboticaPage() {
           <VideoSlot label="Cirurgia de próstata: a verdade sobre continência e ereção" />
 
           {/* S5 */}
-          <h2>Como é a recuperação</h2>
+          <h2 id="recuperacao">Como é a recuperação</h2>
           <ul>
             <li>
               <strong>Internação:</strong> tipicamente 1–2 diárias.
@@ -286,8 +320,26 @@ export default function RoboticaPage() {
             </li>
           </ul>
 
-          {/* S5b — uro-oncologia além da próstata */}
+          {/* S6 — FAQ da próstata: fecha o capítulo antes de "e tem mais" */}
+          <h2 id="faq-prostatectomia">
+            Perguntas frequentes sobre a prostatectomia robótica
+          </h2>
+          {FAQ_PROSTATA.map((item) => (
+            <div className="faq-item" key={item.q}>
+              <h3>{item.q}</h3>
+              <p>{item.a}</p>
+            </div>
+          ))}
+
+          {/* S7 — uro-oncologia além da próstata.
+              Porta de entrada da campanha de rim: parte do tráfego pago começa
+              a leitura aqui, por #alem-da-prostata, e não pelo topo. */}
           <h2 id="alem-da-prostata">A uro-oncologia além da próstata</h2>
+          <p>
+            A cirurgia robótica não se restringe à próstata. Rim, adrenal, bexiga
+            e testículo têm indicações consolidadas para a via robótica, e são
+            operados em Fortaleza pelo Dr. Ricardo Reges.
+          </p>
           <p>
             A cirurgia robótica do câncer de próstata é o procedimento mais
             realizado desta prática — mas a uro-oncologia é maior que a próstata,
@@ -361,15 +413,29 @@ export default function RoboticaPage() {
             a estratégia inteira.
           </p>
 
+          {/* Rótulo explícito: sem ele estas perguntas ficam no mesmo nível
+              visual de "Rim" e "Adrenal" e o leitor não percebe a mudança de
+              registro. */}
+          <h3 id="faq-uro-oncologia">
+            Perguntas sobre as demais cirurgias uro-oncológicas
+          </h3>
           {FAQ_URO.map((item) => (
             <div className="faq-item" key={item.q}>
-              <h3>{item.q}</h3>
+              <h4>{item.q}</h4>
               <p>{item.a}</p>
             </div>
           ))}
 
-          {/* S6 */}
-          <h2>Por que o Dr. Ricardo Reges</h2>
+          {/* Volta ao capítulo principal, para quem entrou pelo meio. */}
+          <p className="section-backlink">
+            Veja também:{' '}
+            <a href="#diagnostico">
+              a prostatectomia radical robótica, passo a passo
+            </a>
+          </p>
+
+          {/* S8 */}
+          <h2 id="por-que-o-dr-ricardo">Por que o Dr. Ricardo Reges</h2>
           <p>Fatos, não adjetivos:</p>
           <ul>
             <li>
@@ -417,17 +483,18 @@ export default function RoboticaPage() {
             />
           </picture>
 
-          {/* S7 — FAQ */}
-          <h2>Perguntas frequentes</h2>
-          {FAQ.map((item) => (
+          {/* S9 — FAQ geral. A pergunta sobre convênio/particular fica
+              imediatamente antes da chamada para agendar. */}
+          <h2 id="faq-geral">Perguntas gerais sobre cirurgia e atendimento</h2>
+          {FAQ_GERAL.map((item) => (
             <div className="faq-item" key={item.q}>
               <h3>{item.q}</h3>
               <p>{item.a}</p>
             </div>
           ))}
 
-          {/* S8 */}
-          <h2>O primeiro passo</h2>
+          {/* S10 */}
+          <h2 id="primeiro-passo">O primeiro passo</h2>
           <p>
             Traga seus exames — PSA, biópsia, ressonância se houver. A primeira
             consulta é uma leitura honesta do seu caso e de todas as rotas,

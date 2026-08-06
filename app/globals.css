@@ -471,8 +471,65 @@ main { display: block; }
 
 .faq-item { border-top: 1px solid var(--linha); padding: 1.25rem 0; }
 .faq-item:last-child { border-bottom: 1px solid var(--linha); }
-.faq-item h3 { font-size: 1.12rem; margin-bottom: 0.4rem; }
+.faq-item h3, .faq-item h4 { font-size: 1.12rem; margin-bottom: 0.4rem; }
 .faq-item p:last-child { margin-bottom: 0; }
+
+/* ── Âncoras sob o cabeçalho fixo ────────────────────────── */
+/* O cabeçalho é sticky (64px de altura mínima). Sem isto, chegar por
+   #fragmento deixa o título escondido atrás dele. */
+[id] { scroll-margin-top: calc(64px + 1.25rem); }
+
+/* ── Índice de âncoras (páginas longas) ──────────────────── */
+/* É índice, não menu: caixa discreta no fluxo do texto, sem JS. */
+.page-toc {
+  margin: 0 0 2rem;
+  padding: 1rem 1.25rem 1.1rem;
+  background: var(--nevoa);
+  border: 1px solid var(--linha);
+  border-radius: var(--radius);
+}
+.page-toc__label {
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--aco-escuro);
+  margin: 0 0 0.35rem;
+}
+.page-toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.page-toc li { margin: 0; }
+.page-toc a {
+  display: flex;
+  align-items: center;
+  min-height: 44px; /* alvo de toque — o público é 60+ */
+  padding: 0.35rem 0;
+  color: var(--tinta);
+  font-size: 0.97rem;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.page-toc a:hover, .page-toc a:focus-visible {
+  color: var(--ouro-escuro);
+  text-decoration: underline;
+}
+/* Duas colunas só onde cabem sem espremer o rótulo mais longo. */
+@media (min-width: 42rem) {
+  .page-toc ul { display: grid; grid-template-columns: 1fr 1fr; column-gap: 1.75rem; }
+}
+
+/* Retorno ao capítulo principal, para quem entrou pelo meio da página. */
+.section-backlink {
+  margin: 2.25rem 0 0;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--linha);
+  font-size: 0.95rem;
+  color: var(--aco-escuro);
+}
 
 .address-block { display: grid; gap: 0.35rem; }
 .map-embed {

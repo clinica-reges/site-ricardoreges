@@ -4,10 +4,10 @@ import {
   DOCTOR,
   ADDRESS,
   WHATSAPP_DISPLAY,
-  WHATSAPP_URL,
   PHONE_DISPLAY,
   PHONE_TEL,
 } from '@/lib/site';
+import WhatsappAnchor from '@/components/WhatsappAnchor';
 
 export default function Footer() {
   return (
@@ -32,10 +32,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              WhatsApp:{' '}
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-                {WHATSAPP_DISPLAY}
-              </a>
+              WhatsApp: <WhatsappAnchor>{WHATSAPP_DISPLAY}</WhatsappAnchor>
             </li>
             <li>{ADDRESS.street}</li>
             <li>

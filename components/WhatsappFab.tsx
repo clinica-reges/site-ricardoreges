@@ -1,13 +1,15 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { WHATSAPP_DISPLAY, WHATSAPP_URL } from '@/lib/site';
+import { usePathname } from 'next/navigation';
+import { WHATSAPP_DISPLAY, whatsappUrl } from '@/lib/site';
 
 // Botão flutuante de WhatsApp — discreto, na paleta do site.
 // Some quando um CTA já está na tela (o bloco final e o rodapé), para não
 // cobrir contato nem repetir o que o usuário já está vendo.
 export default function WhatsappFab() {
   const ref = useRef<HTMLAnchorElement>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     const fab = ref.current;
@@ -40,7 +42,7 @@ export default function WhatsappFab() {
       ref={ref}
       className="wa-fab"
       data-cta-location="flutuante"
-      href={WHATSAPP_URL}
+      href={whatsappUrl(pathname)}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={`Falar no WhatsApp da clínica — ${WHATSAPP_DISPLAY}`}

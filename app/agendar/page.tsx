@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
 import { AgendarButton, WhatsappLink } from '@/components/Cta';
+import WhatsappAnchor from '@/components/WhatsappAnchor';
 import JsonLd from '@/components/JsonLd';
 import { clinicSchema } from '@/lib/schema';
-import { ADDRESS, WHATSAPP_DISPLAY, WHATSAPP_URL } from '@/lib/site';
+import { ADDRESS, WHATSAPP_DISPLAY } from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Agendar Consulta — Dr. Ricardo Reges, Urologista em Fortaleza',
@@ -54,9 +55,9 @@ export default function AgendarPage() {
             <h3>2. WhatsApp</h3>
             <p style={{ marginBottom: 0 }}>
               Fale com a equipe da clínica:{' '}
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
+              <WhatsappAnchor>
                 <strong>{WHATSAPP_DISPLAY}</strong>
-              </a>{' '}
+              </WhatsappAnchor>{' '}
               (atendimento em horário comercial).
             </p>
           </div>

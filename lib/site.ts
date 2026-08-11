@@ -27,6 +27,55 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_E164}`;
 export const PHONE_DISPLAY = WHATSAPP_DISPLAY;
 export const PHONE_TEL = `tel:+${WHATSAPP_E164}`;
 
+// ─────────────────────────────────────────────────────────────
+// Mensagem pré-preenchida do WhatsApp, por página de origem.
+//
+// O clique é medido pelo GA4, mas o que o consultório precisa saber é de que
+// página veio o paciente que efetivamente operou — e isso nenhum painel liga.
+// Com a origem escrita na primeira linha da conversa, a secretária só anota.
+//
+// Distingue por página, não por posição do botão: a posição já está no
+// `cta_location`, e repeti-la no texto deixaria a mensagem estranha para quem
+// a envia. Curtas de propósito — mensagem longa parece robô e o paciente apaga.
+//
+// PENDENTE DE APROVAÇÃO — o texto é do Dr. Ricardo Reges e ele revisa antes
+// do merge, mesmo critério da seção de RTU.
+// ─────────────────────────────────────────────────────────────
+
+export const WHATSAPP_MESSAGE_PADRAO =
+  'Olá! Vim pelo site e gostaria de agendar uma avaliação.';
+
+// Chaves com barra no fim, como o `trailingSlash: true` do next.config.
+// Rota não listada cai no padrão — inclusive a 404, que atende URL arbitrária.
+export const WHATSAPP_MESSAGES: Readonly<Record<string, string>> = {
+  '/': WHATSAPP_MESSAGE_PADRAO,
+  '/cirurgia-robotica/':
+    'Olá! Vim pela página de cirurgia robótica e gostaria de agendar uma avaliação.',
+  '/cirurgia-laser-prostata/':
+    'Olá! Vim pela página de cirurgia a laser da próstata e gostaria de agendar uma avaliação.',
+  '/echolaser/':
+    'Olá! Vim pela página do EchoLASER e gostaria de agendar uma avaliação.',
+  '/pos-prostatectomia/':
+    'Olá! Vim pela página sobre sequelas da cirurgia de próstata e gostaria de agendar uma avaliação.',
+  '/avaliacao-urodinamica/':
+    'Olá! Vim pela página de avaliação urodinâmica e gostaria de agendar uma avaliação.',
+  '/sobre/': WHATSAPP_MESSAGE_PADRAO,
+  '/agendar/': 'Olá! Gostaria de agendar uma consulta.',
+};
+
+export function whatsappMessage(pathname?: string | null): string {
+  if (!pathname) return WHATSAPP_MESSAGE_PADRAO;
+  const path = pathname.split(/[?#]/)[0];
+  const key = path.endsWith('/') ? path : `${path}/`;
+  return WHATSAPP_MESSAGES[key] ?? WHATSAPP_MESSAGE_PADRAO;
+}
+
+// Fonte única do href de WhatsApp do site. Nenhum link deve montar essa URL
+// na mão — é isso que garante que toda origem nova já nasça com mensagem.
+export function whatsappUrl(pathname?: string | null): string {
+  return `${WHATSAPP_URL}?text=${encodeURIComponent(whatsappMessage(pathname))}`;
+}
+
 // Identificação profissional
 export const DOCTOR = {
   name: 'Dr. Ricardo Reges',

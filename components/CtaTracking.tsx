@@ -120,9 +120,22 @@ export default function CtaTracking() {
       const href = (anchor.getAttribute('href') || '').trim();
       let linkUrl = href;
       try {
-        linkUrl = /^tel:/i.test(href)
-          ? href
-          : new URL(href, window.location.href).href;
+        if (/^tel:/i.test(href)) {
+          linkUrl = href;
+        } else {
+          const url = new URL(href, window.location.href);
+          // A mensagem pré-preenchida do WhatsApp viaja na query e não
+          // interessa ao GA4: gravá-la quebraria a série histórica de
+          // `link_url` (hoje um valor único para o site inteiro) e deixaria o
+          // relatório ilegível, sem acrescentar nada — a origem já está em
+          // `cta_location` e em `page_location`. Só o WhatsApp perde a query;
+          // no `agendar_click` ela carrega os UTM e precisa continuar inteira.
+          if (name === 'whatsapp_click') {
+            url.search = '';
+            url.hash = '';
+          }
+          linkUrl = url.href;
+        }
       } catch {
         /* mantém o href cru */
       }

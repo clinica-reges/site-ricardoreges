@@ -1,4 +1,5 @@
-import { bookingUrl, WHATSAPP_DISPLAY, WHATSAPP_URL } from '@/lib/site';
+import { bookingUrl, WHATSAPP_DISPLAY } from '@/lib/site';
+import WhatsappAnchor from '@/components/WhatsappAnchor';
 
 // Botão primário de agendamento — recebe a campanha UTM da página.
 export function AgendarButton({
@@ -32,9 +33,7 @@ export function WhatsappLink({ prefix }: { prefix?: string }) {
   return (
     <span className="cta-alt">
       {prefix ?? 'WhatsApp da clínica: '}
-      <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
-        {WHATSAPP_DISPLAY}
-      </a>
+      <WhatsappAnchor>{WHATSAPP_DISPLAY}</WhatsappAnchor>
     </span>
   );
 }

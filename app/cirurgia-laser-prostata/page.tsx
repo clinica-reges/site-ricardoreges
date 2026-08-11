@@ -123,9 +123,8 @@ export default function LaserProstataPage() {
           <VideoSlot label="Os sinais de que sua próstata cresceu" />
 
           {/* S1b — ponte de vocabulário.
-              PENDENTE DE REVISÃO CLÍNICA — texto redigido como rascunho de
-              estrutura; o conteúdo médico é do Dr. Ricardo Reges e só vai ao ar
-              depois da revisão e aprovação dele.
+              Texto clínico revisado e aprovado pelo Dr. Ricardo Reges em
+              11/08/2026, incluindo a frase da ponte de vocabulário.
 
               Porta de entrada da campanha "RTU e raspagem": parte do tráfego
               pago começa a leitura aqui, por #rtu-e-holep, e não pelo topo.

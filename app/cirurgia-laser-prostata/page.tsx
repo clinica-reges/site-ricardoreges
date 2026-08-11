@@ -122,6 +122,54 @@ export default function LaserProstataPage() {
           </p>
           <VideoSlot label="Os sinais de que sua próstata cresceu" />
 
+          {/* S1b — ponte de vocabulário.
+              PENDENTE DE REVISÃO CLÍNICA — texto redigido como rascunho de
+              estrutura; o conteúdo médico é do Dr. Ricardo Reges e só vai ao ar
+              depois da revisão e aprovação dele.
+
+              Porta de entrada da campanha "RTU e raspagem": parte do tráfego
+              pago começa a leitura aqui, por #rtu-e-holep, e não pelo topo.
+              Fica antes do detalhamento das técnicas porque quem chega pela
+              âncora precisa alinhar o vocabulário antes de encontrar "HoLEP".
+              Descritiva por obrigação — nada de comparação de superioridade
+              entre técnicas nem números de desfecho (CFM). Não é FAQ: fora do
+              FAQPage do JSON-LD. */}
+          <h2 id="rtu-e-holep">Raspagem, RTU e HoLEP: qual é a diferença</h2>
+          <p>
+            Se o seu médico falou em <strong>raspagem da próstata</strong>,{' '}
+            <strong>RTU</strong> ou <strong>ressecção endoscópica da
+            próstata</strong>, ele está se referindo à cirurgia feita por dentro
+            do canal da urina, sem cortes na barriga. É a técnica clássica para
+            a próstata aumentada, com décadas de uso, e segue sendo uma opção
+            adequada em muitos casos.
+          </p>
+          <p>
+            O HoLEP e as demais técnicas a Laser desta página pertencem à mesma
+            família: também são feitas pelo canal da urina, sem corte externo. O
+            que muda é o instrumento usado para retirar o tecido que obstrui a
+            passagem — na RTU, uma alça elétrica; na enucleação, o Laser. A via
+            de acesso e o objetivo são os mesmos: desobstruir o canal
+            preservando a cápsula da próstata. Ou seja, se você chegou aqui
+            procurando por &ldquo;raspagem&rdquo; e encontrou outros nomes, está
+            no lugar certo — é a mesma cirurgia, por dentro, com ferramentas
+            diferentes.
+          </p>
+          <p>
+            O que define a escolha não é o nome do procedimento. Pesam o tamanho
+            da próstata, a intensidade dos sintomas, as condições clínicas
+            gerais, o uso de anticoagulantes e a sua expectativa em relação à
+            ejaculação. Cada técnica tem cenários em que se encaixa melhor, e é
+            a avaliação individual — com exame, medida do volume prostático e,
+            quando indicado, estudo urodinâmico — que aponta qual delas faz
+            sentido para o seu caso.
+          </p>
+          <div data-cta-location="rtu-holep">
+            <CtaBlock
+              campaign="laser-prostata"
+              whatsappPrefix="Prefere falar com a equipe? WhatsApp da clínica: "
+            />
+          </div>
+
           {/* S2 */}
           <h2>Como funciona a cirurgia a Laser</h2>
           <p>

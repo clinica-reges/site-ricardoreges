@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4>Contato</h4>
+          <h2>Contato</h2>
           <ul>
             <li>
               Telefone:{' '}
@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
 
         <nav aria-label="Rodapé">
-          <h4>Navegação</h4>
+          <h2>Navegação</h2>
           <ul>
             {NAV.map((item) => (
               <li key={item.href}>

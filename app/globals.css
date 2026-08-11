@@ -394,7 +394,10 @@ main { display: block; }
 .site-footer a { color: #fff; }
 .site-footer__grid { display: grid; gap: 2rem; }
 @media (min-width: 48rem) { .site-footer__grid { grid-template-columns: 1.4fr 1fr 1fr; } }
-.site-footer h4 { color: #fff; font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 0.9rem; }
+/* Rótulos das colunas são h2, não h4: quem navega por heading em leitor de
+   tela usa o rodapé, e o salto de nível quebrava a auditoria em toda página.
+   O tamanho vem daqui, não do h2 global — a aparência não muda. */
+.site-footer h2 { color: #fff; font-family: var(--sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.14em; margin-bottom: 0.9rem; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
 .site-footer li { margin-bottom: 0.45rem; }
 .site-footer__name { font-family: var(--serif); font-size: 1.25rem; color: #fff; margin-bottom: 0.3rem; }

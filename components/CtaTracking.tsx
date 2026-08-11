@@ -26,6 +26,9 @@ const CTA_LOCATIONS: readonly string[] = [
   'meio-texto',
   'faq',
   'rodape',
+  // Seção "Raspagem, RTU e HoLEP" (/cirurgia-laser-prostata/#rtu-e-holep):
+  // porta de entrada de campanha própria, medida separada do meio de texto.
+  'rtu-holep',
 ];
 
 declare global {
